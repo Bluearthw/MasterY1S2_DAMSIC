@@ -1,0 +1,16 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Feb 20 17:42:02 2025 
+Best design point: 1
+Design specs: 
+	DAMSIC25_TB_2_STAGE_MILLER_OTA_TB_1	corner	Nominal - 
+	UGB		6.134M
+	PM		45.24
+	DC GAIN		61.94
+Design parameters: 
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Thu Feb 20 17:42:05 2025 

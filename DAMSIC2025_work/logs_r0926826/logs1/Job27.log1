@@ -1,0 +1,170 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = DAMSIC
+	Cell         = SCAmplifier_STB_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.0
+	Results DB   = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/DAMSIC/SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0926826/simulation/DAMSIC/SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1
+	Results Loc  = /users/students/r0926826/simulation/DAMSIC/SCAmplifier_STB_TB/maestro/results/maestro
+	Project Dir  = /users/students/r0926826/simulation
+	Setup DB loc = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/DAMSIC/SCAmplifier_STB_TB/maestro
+	File Encoding = 0
+
+
+INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (5 1) on testbench [
+          DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var CP2 = "159.235668789809e-12"
+Setting var C_OTA = "0.5p"
+Setting var Cfb = "1p"
+Setting var Cin = "10p"
+Setting var Cl = "2.5p"
+Setting var F_POLE2 = "1G"
+Setting var INCM = "0.5"
+Setting var OUTCMRef = "0.5"
+Setting var RSW_OFF = "100M"
+Setting var RSW_ON = "1"
+Setting var VSW_TH = "0.55"
+Setting var Vin = "100m"
+Setting var alpha = "0.01"
+Setting var fin = "100K"
+Setting var fsw = "10M"
+Setting var gm_OTA = "20m"
+Setting var ro_OTA = "50k"
+Setting temp(T) = 27
+Setting var vdd = "1.1"
+
+*Info*    Netlist Directory =
+          /users/students/r0926826/simulation/DAMSIC/SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1/netlist
+
+
+*Info*    Data Directory    =
+          /users/students/r0926826/simulation/DAMSIC/SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1
+
+
+*Info*    Creating Netlist for Point ID (5 1)
+
+generate netlist...
+Begin Incremental Netlisting Feb 21 12:27:24 2025
+WARNING (OSSHNL-225): The design variable 'gm', used in the last netlisting session in the current
+run directory is not used in this netlisting session. The netlist(s) generated
+in the last netlisting session cannot be reused for incremental netlisting.
+Therefore re-netlisting the design.
+
+End netlisting Feb 21 12:27:24 2025
+
+Netlisting Statistics:
+	Number of components:   49
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1 ]
+          for Point ID (5 1).
+
+Delete psf data in /users/students/r0926826/simulation/DAMSIC/SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
+
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
+
+          Error found by spectre in `idealOTA_2POLE':`I23', during
+          hierarchy flattening.
+Error found by spectre in
+          `idealOTA_2POLE':`I23', during hierarchy flattening.
+ERROR
+          (SFE-1997): "input.scs" 22: Cannot run the simulation
+          because I23.G0: parameter `gm': Cannot run the simulation
+          because parameter '_par0' has be
+en used but no value has
+          been assigned to it. Assign a value to the parameter and
+          rerun the simulation.
+ERROR (SFE-1997): "input.scs" 23:
+          Cannot run the simulation because I23.G1: parameter `gm':
+          Cannot run the simulation because parameter '_par0' has
+          be
+en used but no value has been assigned to it. Assign a
+          value to the parameter and rerun the simulation.
+ERROR
+          (SFE-1997): "input.scs" 26: Cannot run the simulation
+          because I23.R5: parameter `r': Cannot run the simulation
+          because parameter 'ro' has been u
+sed but no value has been
+          assigned to it. Assign a value to the parameter and rerun
+          the simulation.
+ERROR (SFE-1997): "input.scs" 27: Cannot
+          run the simulation because I23.R4: parameter `r': Cannot
+          run the simulation because parameter '_par0' has bee
+n used
+          but no value has been assigned to it. Assign a value to the
+          parameter and rerun the simulation.
+ERROR (SFE-1997):
+          "input.scs" 28: Cannot run the simulation because I23.R0a:
+          parameter `r': Cannot run the simulation because parameter
+          '_par0' has be
+en used but no value has been assigned to
+          it. Assign a value to the parameter and rerun the
+          simulation.
+ERROR (SFE-1997): "input.scs" 29: Cannot run
+          the simulation because I23.R3: parameter `r': Cannot run
+          the simulation because parameter 'ro' has been u
+sed but no
+          value has been assigned to it. Assign a value to the
+          parameter and rerun the simulation.
+ERROR (SFE-1997):
+          "input.scs" 32: Cannot run the simulation because I23.C1:
+          parameter `c': Cannot run the simulation because parameter
+          'C' has been us
+ed but no value has been assigned to it.
+          Assign a value to the parameter and rerun the
+          simulation.
+ERROR (SFE-1997): "input.scs" 33: Cannot run
+          the simulation because I23.C0: parameter `c': Cannot run
+          the simulation because parameter 'C' has been us
+ed but no
+          value has been assigned to it. Assign a value to the
+          parameter and rerun the simulation.
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.
