@@ -39,16 +39,25 @@
 				</tooloptions>
 				<vars>
 					<var>Cfb
-						<value>1p</value>
+						<value>0.5p</value>
 					</var>
 					<var>Cin
-						<value>8p</value>
+						<value>5p</value>
 					</var>
 					<var>Cl
-						<value>1p</value>
+						<value>2.5p</value>
 					</var>
 					<var>fsw
-						<value>1M</value>
+						<value>80k</value>
+					</var>
+					<var>RSW_OFF
+						<value>100M</value>
+					</var>
+					<var>RSW_ON
+						<value>10</value>
+					</var>
+					<var>VSW_TH
+						<value>0.55</value>
 					</var>
 					<var>INCM
 						<value>0.55</value>
@@ -77,14 +86,8 @@
 					<var>ro_OTA
 						<value>50K</value>
 					</var>
-					<var>RSW_OFF
-						<value>100M</value>
-					</var>
-					<var>RSW_ON
-						<value>10</value>
-					</var>
-					<var>VSW_TH
-						<value>0.55</value>
+					<var>CP2
+						<value>1/(6.28*1.1G)</value>
 					</var>
 				</vars>
 				<origoptions>
@@ -199,16 +202,25 @@
 						</tooloptions>
 						<vars>
 							<var>Cfb
-								<value>1p</value>
+								<value>0.5p</value>
 							</var>
 							<var>Cin
-								<value>8p</value>
+								<value>5p</value>
 							</var>
 							<var>Cl
-								<value>1p</value>
+								<value>2.5p</value>
 							</var>
 							<var>fsw
-								<value>1M</value>
+								<value>80k</value>
+							</var>
+							<var>RSW_OFF
+								<value>100M</value>
+							</var>
+							<var>RSW_ON
+								<value>10</value>
+							</var>
+							<var>VSW_TH
+								<value>0.55</value>
 							</var>
 							<var>INCM
 								<value>0.55</value>
@@ -237,14 +249,8 @@
 							<var>ro_OTA
 								<value>50K</value>
 							</var>
-							<var>RSW_OFF
-								<value>100M</value>
-							</var>
-							<var>RSW_ON
-								<value>10</value>
-							</var>
-							<var>VSW_TH
-								<value>0.55</value>
+							<var>CP2
+								<value>1/(6.28*1.1G)</value>
 							</var>
 						</vars>
 						<origoptions>
@@ -372,8 +378,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Feb 28 10:20:56 2025</timestamp>
-			<uuid>{07a5950a-a08d-4b43-9e15-148115dd33db}</uuid>
+			<timestamp>May 2 09:26:46 2025</timestamp>
+			<uuid>{43896871-43ea-469b-ac78-273fc580c732}</uuid>
 			<resultsname>/users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/DAMSIC/SCAmplifier_Transient_TB_MinMax/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -382,7 +388,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas2-16.esat.kuleuven.be_r0926826_102056168</localpsfdir>
+			<localpsfdir>/tmp/stud-r9-27.esat.kuleuven.be_r0926826_092646457</localpsfdir>
 			<psfdir>/users/students/r0926826/simulation/DAMSIC/SCAmplifier_Transient_TB_MinMax/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/SCAmplifier_Transient_TB_MinMax/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>

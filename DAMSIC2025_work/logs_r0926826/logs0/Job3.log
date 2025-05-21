@@ -6,17 +6,17 @@
 
 *Info*    Configuring the session ...
 
-	Library      = DAMSIC
-	Cell         = demo_SCAmplifier_STB_TB
+	Library      = damsicOurs
+	Cell         = SOTA_Transient_AC_TB
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
 	State Name   = Interactive.0
-	Results DB   = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0.rdb
-	Results Dir  = /users/students/r0926826/simulation/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB
-	Results Loc  = /users/students/r0926826/simulation/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro
+	Results DB   = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1
+	Results Loc  = /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro
 	Project Dir  = /users/students/r0926826/simulation
-	Setup DB loc = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/DAMSIC/demo_SCAmplifier_STB_TB/maestro
+	Setup DB loc = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_Transient_AC_TB/maestro
 	File Encoding = 0
 
 
@@ -29,40 +29,42 @@ INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC ver
 
 
 
-*Info*    Run start for Point ID (1 1) on testbench [ STB ].
+*Info*    Run start for Point ID (1 1) on testbench [
+          damsicOurs_SOTA_Transient_AC_TB_1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var CP2 = "159.235668789809e-12"
-Setting var C_OTA = "1p"
-Setting var Cfb = "0.2p"
-Setting var Cin = "2p"
-Setting var Cl = "2p"
-Setting var F_CLK = "1M"
-Setting var F_POLE2 = "1G"
+Setting var B = "1"
+Setting var Cl = "2.5p"
+Setting var FreqIn = "80M"
 Setting var INCM = "0.5"
-Setting var OUTCMRef = "0.5"
-Setting var gm_OTA = "25m"
-Setting var ro_OTA = "2.5M"
-Setting var ron = "5"
+Setting var INDM = "0.05"
+Setting var OUTCMREF = "0.5"
+Setting var nL = "10"
+Setting var nW = "265"
+Setting var nl1 = "10"
+Setting var nl2 = "10"
+Setting var nl3 = "10"
 Setting temp(T) = 27
-Setting var vdd = "1.1"
+Setting var vb5 = "0.25"
+Setting var vb6 = "0.55"
+Setting var vb7 = "0.8"
 
 *Info*    Netlist Directory =
-          /users/students/r0926826/simulation/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB/netlist
+          /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1/netlist
 
 
 *Info*    Data Directory    =
-          /users/students/r0926826/simulation/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB
+          /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1
 
 
 *Info*    Creating Netlist for Point ID (1 1)
 
 generate netlist...
-Begin Incremental Netlisting Feb 28 08:28:00 2025
-End netlisting Feb 28 08:28:00 2025
+Begin Incremental Netlisting Mar 17 15:37:03 2025
+End netlisting Mar 17 15:37:03 2025
 
 	The netlist is up to date.
 	Time taken to compare the design with netlist:   0.0s
@@ -70,9 +72,10 @@ End netlisting Feb 28 08:28:00 2025
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ STB ] for Point ID (1 1).
+*Info*    Running simulation on testbench [
+          damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (1 1).
 
-Delete psf data in /users/students/r0926826/simulation/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB/psf.
+Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -81,13 +84,29 @@ simulate...
 To view the simulator output, right-click on the test name, result 
 name, or any value in the "Results" tab of the Outputs section and 
 choose "Output Log" menu option.
-INFO (ADE-3071): Simulation completed successfully.
-reading simulation data...
-      ...successful.
-*Info*    Client has finished evaluating ... 
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
 
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
 
-*Info*    Run complete for Point ID (1 1) on testbench [ STB ].
+          Error found by spectre during initial setup.
+Error found by
+          spectre during initial setup.
+ERROR (CMI-2942): I11.PM2l:
+          Length, width, or area of the instance does not fit the
+          specified lmax-lmin, wmax-wmin, or areamax-areamin range
+          for any m
+odel in the `I11.PM2l.pch' group. Set
+          soft_bin=allmodels to choose the nearest model.
+ERROR
+          (CMI-2942): I11.NM5r: Length, width, or area of the
+          instance does not fit the specified lmax-lmin, wmax-wmin,
+          or areamax-areamin range for any m
+odel in the
+          `I11.NM5r.nch' group. Set soft_bin=allmodels to choose the
+          nearest model.
 
 
 

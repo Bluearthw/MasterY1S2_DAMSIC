@@ -1,0 +1,5011 @@
+\# Program start time:     UTC 2025.03.21 15:11:07.159
+\# Local time: CET (UTC+01:00) 2025.03.21 16:11:07.159
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 03/14/2023 19:53 (cpgsrv12) $
+\o Hierarchy:		/esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.31  (64-bit addresses)
+\# Command line:	/esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso2534 -mpshost pc-klas4-5.esat.kuleuven.be -davinciService DaVinciService_2534_1742562563 -log /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/logs_r0926826/logs6/Job68.log -licenseLockFileName /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/.tmp_r0926826/.pc-klas4-5.esat.kuleuven.be_2534 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 68
+\# Host name (type):	pc-klas4-5.esat.kuleuven.be (x86_64)
+\# Operating system:	Linux 5.14.0-503.31.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Mar 11 16:53:43 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:3139 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        644 MB
+\# Available memory:	     42,723 MB
+\# System memory:	     48,245 MB
+\# Maximum memory size:	     47,720 MB
+\# Max mem available:	     42,841 MB
+\# Initial memory used:	        118 MB
+\#        process size:	      1,539 MB
+\# Thread usage limits (effective/default):	maxthreads 5166/5166 maxload 12.00/12.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		r0926826
+\o Working Directory:	pc-klas4-5.esat.kuleuven.be:/users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work
+\# Process Id:		94176
+\o 
+\o COPYRIGHT (C) 1992-2023  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2023  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso2534, host=pc-klas4-5.esat.kuleuven.be). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 94176 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [16:11:07.458626] Configured Lic search path (22.01-s002): 27002@license-extern.esat.kuleuven.be:/esat/micas-data/software/Cadence/ic_6.1.8.310/share/license/license.dat
+\w *WARNING* '/users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/cds.lib', Line 9: Skipping: 'DAMSI_ours'
+\o  /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/DAMSI_ours
+\# Memory report: using         266 MB, process size 1,816 MB at UTC 2025.03.21 15:11:09.915
+\w *WARNING* The directory: '/users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/SESSION_1_EXCERCISEDEFINE' does not exist
+\w 	but was defined in libFile '/users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/cds.lib' for Lib 'SESSION_1_EXCERCISE'.
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p > 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 94176' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = damsicOurs
+\o 	Cell         = SOTA_Transient_AC_TB
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.0
+\o 	Results DB   = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0.rdb
+\o 	Results Dir  = /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1
+\o 	Results Loc  = /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro
+\o 	Project Dir  = /users/students/r0926826/simulation
+\o 	Setup DB loc = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_Transient_AC_TB/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\w *WARNING* '/users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/cds.lib', Line 9: Skipping: 'DAMSI_ours'
+\o  /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/DAMSI_ours
+\w *WARNING* The directory: '/users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/SESSION_1_EXCERCISEDEFINE' does not exist
+\w 	but was defined in libFile '/users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/cds.lib' for Lib 'SESSION_1_EXCERCISE'.
+\o Loading gpdk045/libInit.il ...
+\o 	Loading gpdk045/loadCxt.ile ... done!
+\o 	Loading context 'gpdk045' from library 'gpdk045' ... done!
+\o 	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+\e 	Loading gpdk045/gpdk045_customFilter.il ... *Error* eval: unbound variable - axlRegisterCustomDeviceFilter
+\o failed!
+\o 	Loading gpdk045/libInitCustomExit.il ... 
+\o 	Loading Environment Settings ...
+\o 	Loading Model Management File ...
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o Loading msgHandler.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 45nm PDK                       *           
+\o   *                        (gpdk045)                          *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o 	
+\o 
+\o 	VERSION: 4.0 (17-June-2014)
+\o 
+\o done!
+\# Memory report: using         375 MB, process size 1,927 MB at UTC 2025.03.21 15:11:11.193
+\o Failed to load gpdk045/libInit.il successfully!INFO (ADE-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o *Info*    Run start for points ((25 1) (25 2) (25 3) (25 4) (25 5)
+\o           (25 6) (25 7) (25 8) (25 9) (25 10) (25 11) (25 12) (25 13)
+\o           (25 14) (25 15) (25 16) (25 17) (25 18) (25 19) (25 20) (25
+\o           21))
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 1) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var B = "2"
+\o Setting var Cl = "2.5p"
+\o Setting var FreqIn = "80M"
+\o Setting var INCM = "0.4"
+\o Setting var INDM = "0.05"
+\o Setting var OUTCMREF = "0.3"
+\o Setting var nL = "10"
+\o Setting var nL7 = "6"
+\o Setting var nW = "10"
+\o Setting var nl1 = "5"
+\o Setting var nl2 = "5"
+\o Setting var nl3 = "5"
+\o Setting var nnF = "100"
+\o Setting var npF = "100"
+\o Setting var npM = "1"
+\o Setting var npW = "10"
+\o Setting var npW6 = "17"
+\o Setting var npW7 = "10"
+\o Setting var npW_11 = "20"
+\o Setting var npW_inputPair = "20"
+\o Setting temp(T) = 27
+\o Setting var vb5 = "0.9"
+\o Setting var vb6 = "0.3"
+\o Setting var vb7 = "0.35"
+\o Setting var vdd = "1.1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 1)
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\# [16:11:11.306795] Periodic Lic check successful
+\# [16:11:11.306801] Feature usage summary:
+\o Begin Incremental Netlisting Mar 21 16:11:11 2025
+\o End netlisting Mar 21 16:11:11 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 1).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 1) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 2) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.41"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/2/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/2/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:14 2025
+\o End netlisting Mar 21 16:11:14 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 2).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/2/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 2) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 3) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.42"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/3/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/3/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:16 2025
+\o End netlisting Mar 21 16:11:16 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 3).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/3/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\# Available memory:         42,375 MB at UTC 2025.03.21 15:11:17.043
+\# Memory report: Maximum memory size now 42,820 MB at UTC 2025.03.21 15:11:17.043
+\# Thread usage report: 18 active threads, active load 1.40 at UTC 2025.03.21 15:11:17.043
+\o 
+\o *Info*    Run complete for Point ID (25 3) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 4) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.43"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/4/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/4/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:17 2025
+\o End netlisting Mar 21 16:11:17 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 4).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/4/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 4) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 5) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.44"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/5/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/5/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:19 2025
+\o End netlisting Mar 21 16:11:19 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 5).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/5/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 5) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 6) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.45"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/6/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/6/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:20 2025
+\o End netlisting Mar 21 16:11:20 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 6).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/6/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 6) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 7) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.46"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/7/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/7/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 7)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:22 2025
+\o End netlisting Mar 21 16:11:22 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 7).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/7/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 7) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 8) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.47"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/8/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/8/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 8)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:24 2025
+\o End netlisting Mar 21 16:11:24 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 8).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/8/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 8) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 9) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.48"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/9/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/9/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 9)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:25 2025
+\o End netlisting Mar 21 16:11:25 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 9).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/9/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 9) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 10) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.49"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/10/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/10/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 10)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:27 2025
+\o End netlisting Mar 21 16:11:27 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 10).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/10/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 10) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 11) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.5"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/11/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/11/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 11)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:28 2025
+\o End netlisting Mar 21 16:11:29 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 11).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/11/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 11) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 12) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.51"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/12/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/12/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 12)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:30 2025
+\o End netlisting Mar 21 16:11:30 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 12).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/12/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 12) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 13) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.52"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/13/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/13/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 13)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:32 2025
+\o End netlisting Mar 21 16:11:32 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 13).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/13/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 13) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 14) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.53"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/14/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/14/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 14)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:33 2025
+\o End netlisting Mar 21 16:11:33 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 14).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/14/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 14) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 15) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.54"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/15/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/15/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 15)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:35 2025
+\o End netlisting Mar 21 16:11:35 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 15).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/15/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 15) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 16) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.55"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/16/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/16/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 16)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:37 2025
+\o End netlisting Mar 21 16:11:37 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 16).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/16/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 16) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 17) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.56"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/17/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/17/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 17)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:38 2025
+\o End netlisting Mar 21 16:11:38 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 17).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/17/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 17) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 18) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.57"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/18/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/18/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 18)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:40 2025
+\o End netlisting Mar 21 16:11:40 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 18).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/18/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 18) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 19) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.58"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/19/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/19/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 19)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:41 2025
+\o End netlisting Mar 21 16:11:42 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 19).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/19/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 19) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 20) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.59"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/20/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/20/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 20)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:43 2025
+\o End netlisting Mar 21 16:11:43 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 20).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/20/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 20) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 21) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.6"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/21/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/21/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 21)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:11:45 2025
+\o End netlisting Mar 21 16:11:45 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (25 21).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/21/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 21) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = damsicOurs
+\o 	Cell         = SOTA_Transient_AC_TB
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.0
+\o 	Results DB   = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0.rdb
+\o 	Results Dir  = /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1
+\o 	Results Loc  = /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro
+\o 	Project Dir  = /users/students/r0926826/simulation
+\o 	Setup DB loc = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_Transient_AC_TB/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o INFO (ADE-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o *Info*    Run start for points ((26 1) (26 2) (26 3) (26 4) (26 5)
+\o           (26 6) (26 7) (26 8) (26 9) (26 10) (26 11) (26 12) (26 13)
+\o           (26 14) (26 15) (26 16) (26 17) (26 18) (26 19) (26 20) (26
+\o           21) (26 22) (26 23) (26 24) (26 25) (26 26) (26 27) (26 28)
+\o           (26 29) (26 30) (26 31) (26 32) (26 33) (26 34) (26 35) (26
+\o           36) (26 37) (26 38) (26 39) (26 40) (26 41) (26 42) (26 43)
+\o           (26 44) (26 45) (26 46) (26 47) (26 48) (26 49) (26 50) (26
+\o           51) (26 52) (26 53) (26 54) (26 55) (26 56) (26 57) (26 58)
+\o           (26 59) (26 60) (26 61) (26 62) (26 63) (26 64) (26 65) (26
+\o           66) (26 67) (26 68) (26 69) (26 70) (26 71) (26 72) (26 73)
+\o           (26 74) (26 75) (26 76) (26 77) (26 78) (26 79) (26 80) (26
+\o           81) (26 82) (26 83) (26 84) (26 85) (26 86) (26 87) (26 88)
+\o           (26 89) (26 90) (26 91) (26 92) (26 93) (26 94) (26 95) (26
+\o           96) (26 97) (26 98) (26 99) (26 100) (26 101) (26 102) (26
+\o           103) (26 104) (26 105) (26 106) (26 107) (26 108) (26 109)
+\o           (26 110) (26 111) (26 112) (26 113) (26 114) (26 115) (26
+\o           116) (26 117) (26 118) (26 119) (26 120) (26 121) (26 122)
+\o           (26 123) (26 124) (26 125) (26 126) (26 127) (26 128) (26
+\o           129) (26 130) (26 131) (26 132) (26 133) (26 134) (26 135)
+\o           (26 136) (26 137) (26 138) (26 139) (26 140) (26 141) (26
+\o           142) (26 143) (26 144) (26 145) (26 146) (26 147) (26 148)
+\o           (26 149) (26 150) (26 151) (26 152) (26 153) (26 154) (26
+\o           155) (26 156) (26 157) (26 158) (26 159) (26 160) (26 161)
+\o           (26 162) (26 163) (26 164) (26 165) (26 166) (26 167) (26
+\o           168) (26 169) (26 170) (26 171) (26 172) (26 173) (26 174)
+\o           (26 175) (26 176) (26 177) (26 178) (26 179) (26 180) (26
+\o           181) (26 182) (26 183) (26 184) (26 185) (26 186) (26 187)
+\o           (26 188) (26 189) (26 190) (26 191) (26 192) (26 193) (26
+\o           194) (26 195) (26 196) (26 197) (26 198) (26 199) (26 200)
+\o           (26 201))
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 1) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var B = "2"
+\o Setting var Cl = "2.5p"
+\o Setting var FreqIn = "80M"
+\o Setting var INCM = "0.46"
+\o Setting var INDM = "0.05"
+\o Setting var OUTCMREF = "0.3"
+\o Setting var nL = "10"
+\o Setting var nL7 = "6"
+\o Setting var nW = "10"
+\o Setting var nl1 = "5"
+\o Setting var nl2 = "5"
+\o Setting var nl3 = "5"
+\o Setting var nnF = "100"
+\o Setting var npF = "100"
+\o Setting var npM = "1"
+\o Setting var npW = "10"
+\o Setting var npW6 = "17"
+\o Setting var npW7 = "10"
+\o Setting var npW_11 = "20"
+\o Setting var npW_inputPair = "20"
+\o Setting temp(T) = 27
+\o Setting var vb5 = "0.9"
+\o Setting var vb6 = "0.3"
+\o Setting var vb7 = "0.35"
+\o Setting var vdd = "1.1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:13:38 2025
+\o End netlisting Mar 21 16:13:40 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   2.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 1).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 1) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 2) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4601"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/2/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/2/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:13:54 2025
+\o End netlisting Mar 21 16:13:54 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 2).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/2/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 2) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 3) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4602"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/3/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/3/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:13:58 2025
+\o End netlisting Mar 21 16:13:58 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 3).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/3/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 3) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 4) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4603"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/4/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/4/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:03 2025
+\o End netlisting Mar 21 16:14:03 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 4).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/4/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 4) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 5) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4604"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/5/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/5/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:08 2025
+\o End netlisting Mar 21 16:14:09 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 5).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/5/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 5) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 6) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4605"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/6/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/6/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:10 2025
+\o End netlisting Mar 21 16:14:10 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 6).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/6/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 6) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 7) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4606"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/7/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/7/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 7)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:12 2025
+\o End netlisting Mar 21 16:14:12 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 7).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/7/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 7) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 8) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4607"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/8/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/8/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 8)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:13 2025
+\o End netlisting Mar 21 16:14:13 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 8).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/8/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 8) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 9) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4608"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/9/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/9/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 9)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:19 2025
+\o End netlisting Mar 21 16:14:19 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 9).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/9/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 9) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 10) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4609"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/10/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/10/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 10)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:22 2025
+\o End netlisting Mar 21 16:14:22 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 10).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/10/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 10) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 11) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.461"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/11/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/11/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 11)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:29 2025
+\o End netlisting Mar 21 16:14:31 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   3.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 11).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/11/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 11) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 12) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4611"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/12/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/12/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 12)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:37 2025
+\o End netlisting Mar 21 16:14:38 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 12).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/12/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 12) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 13) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4612"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/13/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/13/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 13)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:42 2025
+\o End netlisting Mar 21 16:14:42 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 13).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/13/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 13) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 14) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4613"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/14/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/14/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 14)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:45 2025
+\o End netlisting Mar 21 16:14:45 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 14).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/14/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 14) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 15) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4614"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/15/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/15/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 15)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:46 2025
+\o End netlisting Mar 21 16:14:46 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 15).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/15/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 15) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 16) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4615"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/16/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/16/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 16)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:48 2025
+\o End netlisting Mar 21 16:14:48 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 16).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/16/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 16) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 17) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4616"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/17/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/17/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 17)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:50 2025
+\o End netlisting Mar 21 16:14:50 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 17).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/17/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 17) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 18) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4617"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/18/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/18/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 18)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:52 2025
+\o End netlisting Mar 21 16:14:52 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 18).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/18/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 18) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 19) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4618"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/19/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/19/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 19)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:53 2025
+\o End netlisting Mar 21 16:14:53 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 19).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/19/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 19) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 20) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4619"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/20/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/20/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 20)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:55 2025
+\o End netlisting Mar 21 16:14:55 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 20).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/20/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 20) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 21) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.462"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/21/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/21/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 21)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:56 2025
+\o End netlisting Mar 21 16:14:56 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 21).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/21/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 21) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 22) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4621"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/22/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/22/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 22)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:58 2025
+\o End netlisting Mar 21 16:14:58 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 22).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/22/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 22) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 23) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4622"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/23/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/23/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 23)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:14:59 2025
+\o End netlisting Mar 21 16:15:00 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 23).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/23/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 23) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 24) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4623"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/24/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/24/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 24)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:01 2025
+\o End netlisting Mar 21 16:15:01 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 24).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/24/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 24) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 25) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4624"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/25/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/25/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 25)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:03 2025
+\o End netlisting Mar 21 16:15:03 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 25).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/25/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 25) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 26) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4625"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/26/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/26/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 26)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:04 2025
+\o End netlisting Mar 21 16:15:04 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 26).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/26/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 26) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 27) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4626"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/27/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/27/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 27)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:06 2025
+\o End netlisting Mar 21 16:15:06 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 27).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/27/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 27) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 28) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4627"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/28/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/28/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 28)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:08 2025
+\o End netlisting Mar 21 16:15:08 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 28).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/28/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 28) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 29) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4628"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/29/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/29/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 29)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:09 2025
+\o End netlisting Mar 21 16:15:09 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 29).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/29/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 29) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 30) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4629"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/30/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/30/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 30)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:11 2025
+\o End netlisting Mar 21 16:15:11 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 30).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/30/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 30) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 31) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.463"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/31/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/31/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 31)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:12 2025
+\o End netlisting Mar 21 16:15:12 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 31).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/31/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 31) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 32) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4631"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/32/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/32/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 32)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:14 2025
+\o End netlisting Mar 21 16:15:14 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 32).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/32/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 32) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 33) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4632"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/33/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/33/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 33)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:17 2025
+\o End netlisting Mar 21 16:15:17 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 33).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/33/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 33) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 34) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4633"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/34/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/34/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 34)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:19 2025
+\o End netlisting Mar 21 16:15:19 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 34).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/34/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 34) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 35) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4634"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/35/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/35/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 35)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:21 2025
+\o End netlisting Mar 21 16:15:21 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 35).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/35/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 35) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 36) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4635"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/36/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/36/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 36)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:22 2025
+\o End netlisting Mar 21 16:15:22 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 36).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/36/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 36) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 37) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4636"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/37/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/37/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 37)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:24 2025
+\o End netlisting Mar 21 16:15:24 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 37).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/37/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 37) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 38) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4637"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/38/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/38/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 38)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:26 2025
+\o End netlisting Mar 21 16:15:27 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 38).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/38/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 38) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 39) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4638"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/39/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/39/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 39)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:31 2025
+\o End netlisting Mar 21 16:15:31 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 39).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/39/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\# Memory report: using         475 MB, process size 2,141 MB at UTC 2025.03.21 15:15:33.061
+\o 
+\o *Info*    Run complete for Point ID (26 39) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 40) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4639"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/40/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/40/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 40)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:34 2025
+\o End netlisting Mar 21 16:15:35 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 40).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/40/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 40) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 41) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.464"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/41/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/41/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 41)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:37 2025
+\o End netlisting Mar 21 16:15:37 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 41).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/41/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 41) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 42) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4641"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/42/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/42/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 42)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:39 2025
+\o End netlisting Mar 21 16:15:40 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 42).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/42/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 42) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 43) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4642"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/43/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/43/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 43)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:42 2025
+\o End netlisting Mar 21 16:15:43 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 43).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/43/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 43) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 44) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.464299999999999"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/44/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/44/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 44)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:45 2025
+\o End netlisting Mar 21 16:15:45 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 44).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/44/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 44) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 45) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.464399999999999"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/45/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/45/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 45)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:47 2025
+\o End netlisting Mar 21 16:15:47 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 45).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/45/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 45) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 46) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4645"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/46/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/46/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 46)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:50 2025
+\o End netlisting Mar 21 16:15:50 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 46).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/46/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 46) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 47) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4646"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/47/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/47/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 47)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:54 2025
+\o End netlisting Mar 21 16:15:54 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 47).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/47/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 47) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 48) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4647"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/48/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/48/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 48)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:58 2025
+\o End netlisting Mar 21 16:15:58 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 48).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/48/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 48) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 49) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.464799999999999"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/49/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/49/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 49)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:15:59 2025
+\o End netlisting Mar 21 16:15:59 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 49).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/49/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 49) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 50) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.464899999999999"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/50/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/50/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 50)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:16:01 2025
+\o End netlisting Mar 21 16:16:01 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 50).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/50/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 50) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 51) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.465"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/51/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/51/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 51)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:16:04 2025
+\o End netlisting Mar 21 16:16:05 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 51).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/51/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 51) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 52) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.4651"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/52/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/52/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 52)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:16:09 2025
+\o End netlisting Mar 21 16:16:09 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 52).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/52/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 52) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 53) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.465199999999999"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/53/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/53/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 53)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:16:10 2025
+\o End netlisting Mar 21 16:16:10 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 53).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/53/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 53) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 54) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.465299999999999"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/54/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/54/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 54)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:16:12 2025
+\o End netlisting Mar 21 16:16:12 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 54).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/54/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 54) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 55) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.465399999999999"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/55/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/55/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 55)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:16:14 2025
+\o End netlisting Mar 21 16:16:14 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 55).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/55/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 55) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 56) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.465499999999999"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/56/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/56/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 56)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:16:15 2025
+\o End netlisting Mar 21 16:16:15 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 56).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/56/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 56) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 57) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.465599999999999"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/57/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/57/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 57)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:16:18 2025
+\o End netlisting Mar 21 16:16:18 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 57).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/57/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 57) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 58) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.465699999999999"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/58/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/58/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 58)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:16:21 2025
+\o End netlisting Mar 21 16:16:21 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 58).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/58/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (26 58) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (26 59) on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var INCM = "0.465799999999999"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/59/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/59/damsicOurs_SOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (26 59)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 21 16:16:29 2025
+\o End netlisting Mar 21 16:16:29 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (26 59).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/59/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o MPS exit handler called.
+\e *Error* MPS exit handler called, indicating that the TCP/IP connection to the GUI has been lost.  Exiting
+\e 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 
+\w *WARNING* aaDeleteEventCB: cb nil not on event "sim-env:set-modelPath"
+\w *WARNING* aaDeleteEventCB: cb lambda((_simID) _axlPreRunSetup(stdobj@0x35df5758)) not on event "sim-env:simulator-started"
+\w *WARNING* aaDeleteEventCB: cb _annRefreshPinnedWaveBalloons not on event "sim-env:post-simulation"
+\# Lic Summary:
+\# [16:16:48.273080] Cdslmd servers:27002@license-extern.esat.kuleuven.be:/esat/micas-data/software/Cadence/ic_6.1.8.310/share/license/license.dat
+\# [16:16:48.273104] Feature usage summary:
+\# Memory report: on exit            483 MB, process size 2,148 MB at UTC 2025.03.21 15:16:48.273
+\# Memory report: peak usage         483 MB, process size 2,148 MB
+\w *WARNING* (PerfDiag): The X11 connection broke (error 1). Did the X11 server die?
+\e IO Error 2 (No such file or directory) during exit
+\e Aborting due to fatal X IO error.

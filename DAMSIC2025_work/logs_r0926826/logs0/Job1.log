@@ -6,17 +6,17 @@
 
 *Info*    Configuring the session ...
 
-	Library      = DAMSIC
-	Cell         = demo_SCAmplifier_STB_TB
+	Library      = damsicOurs
+	Cell         = SOTA_Transient_AC_TB
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
 	State Name   = Interactive.0
-	Results DB   = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0.rdb
-	Results Dir  = /users/students/r0926826/simulation/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB
-	Results Loc  = /users/students/r0926826/simulation/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro
+	Results DB   = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1
+	Results Loc  = /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro
 	Project Dir  = /users/students/r0926826/simulation
-	Setup DB loc = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/DAMSIC/demo_SCAmplifier_STB_TB/maestro
+	Setup DB loc = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_Transient_AC_TB/maestro
 	File Encoding = 0
 
 
@@ -30,33 +30,35 @@ Loading monte.cxt
 
 
 
-*Info*    Run start for Point ID (0 1) on testbench [ STB ].
+*Info*    Run start for Point ID (0 1) on testbench [
+          damsicOurs_SOTA_Transient_AC_TB_1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var CP2 = "159.235668789809e-12"
-Setting var C_OTA = "1p"
-Setting var Cfb = "0.2p"
-Setting var Cin = "2p"
-Setting var Cl = "2p"
-Setting var F_CLK = "1M"
-Setting var F_POLE2 = "1G"
+Setting var B = "1"
+Setting var Cl = "2.5p"
+Setting var FreqIn = "80M"
 Setting var INCM = "0.5"
-Setting var OUTCMRef = "0.5"
-Setting var gm_OTA = "25m"
-Setting var ro_OTA = "2.5M"
-Setting var ron = "5"
+Setting var INDM = "0.05"
+Setting var OUTCMREF = "0.5"
+Setting var nL = "10"
+Setting var nW = "2650"
+Setting var nl1 = "10"
+Setting var nl2 = "10"
+Setting var nl3 = "10"
 Setting temp(T) = 27
-Setting var vdd = "1.1"
+Setting var vb5 = "0.25"
+Setting var vb6 = "0.55"
+Setting var vb7 = "0.8"
 
 *Info*    Netlist Directory =
-          /users/students/r0926826/simulation/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB/netlist
+          /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1/netlist
 
 
 *Info*    Data Directory    =
-          /users/students/r0926826/simulation/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB
+          /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1
 
 
 *Info*    Creating Netlist for Point ID (0 1)
@@ -64,27 +66,39 @@ Setting var vdd = "1.1"
 generate netlist...
 Loading hnlInit.cxt 
 Loading seCore.cxt 
-Begin Incremental Netlisting Feb 28 08:18:45 2025
-WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
-compared to the last session in the current run directory. The netlist(s)
-generated in the last netlisting session cannot be reused for incremental
-netlisting. Therefore re-netlisting the design.
-
+Initializing the control file using cp:
+    cp /esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/etc/si/control.spectre /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1/netlist/control
+Copying Spectre source file 'spectre.inp'
+Copying Spectre command file 'spectre.sim'
+Begin Incremental Netlisting Mar 17 15:34:21 2025
+WARNING (ADE-6003): Terminal "Vb1", specified in the CDF termOrder, does not exist
+           in the cell-view "DAMSIC" "symmetrical" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
 Loading json.cxt 
-End netlisting Feb 28 08:18:45 2025
+End netlisting Mar 17 15:34:21 2025
 
 Netlisting Statistics:
-	Number of components:   49
+	Number of components:   27
 
 	Elapsed time:          0.0s
-Errors: 0	Warnings: 0
+Errors: 0	Warnings: 2
       ...successful.
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ STB ] for Point ID (0 1).
+*Info*    Running simulation on testbench [
+          damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (0 1).
 
-Delete psf data in /users/students/r0926826/simulation/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB/psf.
+Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -94,13 +108,29 @@ To view the simulator output, right-click on the test name, result
 name, or any value in the "Results" tab of the Outputs section and 
 choose "Output Log" menu option.
 Loading paraplot.cxt 
-INFO (ADE-3071): Simulation completed successfully.
-reading simulation data...
-      ...successful.
-*Info*    Client has finished evaluating ... 
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
 
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
 
-*Info*    Run complete for Point ID (0 1) on testbench [ STB ].
+          Error found by spectre during initial setup.
+Error found by
+          spectre during initial setup.
+ERROR (CMI-2942): I11.PM2l:
+          Length, width, or area of the instance does not fit the
+          specified lmax-lmin, wmax-wmin, or areamax-areamin range
+          for any m
+odel in the `I11.PM2l.pch' group. Set
+          soft_bin=allmodels to choose the nearest model.
+ERROR
+          (CMI-2942): I11.NM5r: Length, width, or area of the
+          instance does not fit the specified lmax-lmin, wmax-wmin,
+          or areamax-areamin range for any m
+odel in the
+          `I11.NM5r.nch' group. Set soft_bin=allmodels to choose the
+          nearest model.
 
 
 

@@ -1,13 +1,14 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Fri Feb 28 08:30:47 2025 
+Current time: Fri May  2 09:02:32 2025 
 Best design point: 1
 Design specs: 
 	STB	corner	Nominal - 
+	Integrated Noise (V)		Error	No
 Design parameters: 
 
 Interactive.0
 Number of points completed: 1
-Number of simulation errors: 0
+Number of simulation errors: 1
 Interactive.0 completed. 
-Current time: Fri Feb 28 08:30:50 2025 
+Current time: Fri May  2 09:02:35 2025 

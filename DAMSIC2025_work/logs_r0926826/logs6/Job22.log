@@ -1,0 +1,112 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = damsicOurs
+	Cell         = SOTA_Transient_AC_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.0
+	Results DB   = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1
+	Results Loc  = /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro
+	Project Dir  = /users/students/r0926826/simulation
+	Setup DB loc = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_Transient_AC_TB/maestro
+	File Encoding = 0
+
+
+INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (19 1) on testbench [
+          damsicOurs_SOTA_Transient_AC_TB_1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var B = "2"
+Setting var Cl = "2.5p"
+Setting var FreqIn = "10k"
+Setting var INCM = "0.475"
+Setting var INDM = "0.1"
+Setting var OUTCMREF = "0.435"
+Setting var nL = "10"
+Setting var nL7 = "10"
+Setting var nW = "10"
+Setting var nl1 = "5"
+Setting var nl2 = "5"
+Setting var nl3 = "10"
+Setting var nnF = "100"
+Setting var npF = "100"
+Setting var npM = "1"
+Setting var npW = "10"
+Setting var npW6 = "20"
+Setting var npW7 = "10"
+Setting var npW_11 = "20"
+Setting var npW_inputPair = "20"
+Setting temp(T) = 27
+Setting var vb5 = "0.95"
+Setting var vb6 = "0.3"
+Setting var vb7 = "0.35"
+Setting var vdd = "1.1"
+
+*Info*    Netlist Directory =
+          /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+
+
+*Info*    Data Directory    =
+          /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1
+
+
+*Info*    Creating Netlist for Point ID (19 1)
+
+generate netlist...
+Begin Incremental Netlisting Mar 21 17:16:35 2025
+End netlisting Mar 21 17:16:35 2025
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (19 1).
+
+Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (19 1) on testbench [
+          damsicOurs_SOTA_Transient_AC_TB_1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

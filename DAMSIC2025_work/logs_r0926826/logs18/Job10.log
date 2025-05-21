@@ -1,0 +1,645 @@
+\# Program start time:     UTC 2025.04.28 12:20:04.363
+\# Local time: CEST (UTC+02:00) 2025.04.28 14:20:04.363
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 03/14/2023 19:53 (cpgsrv12) $
+\o Hierarchy:		/esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.31  (64-bit addresses)
+\# Command line:	/esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso2873 -mpshost pc-klas2-11.esat.kuleuven.be -davinciService DaVinciService_2873_1745841560 -log /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/logs_r0926826/logs18/Job10.log -licenseLockFileName /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/.tmp_r0926826/.pc-klas2-11.esat.kuleuven.be_2873 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 10
+\# Host name (type):	pc-klas2-11.esat.kuleuven.be (x86_64)
+\# Operating system:	Linux 5.14.0-503.38.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Apr 16 16:38:39 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:6947 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        644 MB
+\# Available memory:	     44,896 MB
+\# System memory:	     48,245 MB
+\# Maximum memory size:	     47,720 MB
+\# Max mem available:	     45,014 MB
+\# Initial memory used:	        118 MB
+\#        process size:	      1,539 MB
+\# Thread usage limits (effective/default):	maxthreads 5166/5166 maxload 12.00/12.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		r0926826
+\o Working Directory:	pc-klas2-11.esat.kuleuven.be:/users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work
+\# Process Id:		11422
+\o 
+\o COPYRIGHT (C) 1992-2023  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2023  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso2873, host=pc-klas2-11.esat.kuleuven.be). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 11422 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [14:20:04.458586] Configured Lic search path (22.01-s002): 27002@license-extern.esat.kuleuven.be:/esat/micas-data/software/Cadence/ic_6.1.8.310/share/license/license.dat
+\# Memory report: using         266 MB, process size 1,816 MB at UTC 2025.04.28 12:20:06.214
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p > 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 11422' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
+\# Available memory:         44,759 MB at UTC 2025.04.28 12:20:15.170
+\# Memory report: Maximum memory size now 45,046 MB at UTC 2025.04.28 12:20:15.170
+\# Thread usage report: 18 active threads, active load 1.40 at UTC 2025.04.28 12:20:15.170
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = damsicOurs
+\o 	Cell         = GBOTA_Transient_AC_TB
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.0
+\o 	Results DB   = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0.rdb
+\o 	Results Dir  = /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_GBOTA_Transient_AC_TB_1
+\o 	Results Loc  = /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro
+\o 	Project Dir  = /users/students/r0926826/simulation
+\o 	Setup DB loc = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/GBOTA_Transient_AC_TB/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\o Loading gpdk045/libInit.il ...
+\o 	Loading gpdk045/loadCxt.ile ... done!
+\o 	Loading context 'gpdk045' from library 'gpdk045' ... done!
+\o 	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+\e 	Loading gpdk045/gpdk045_customFilter.il ... *Error* eval: unbound variable - axlRegisterCustomDeviceFilter
+\o failed!
+\o 	Loading gpdk045/libInitCustomExit.il ... 
+\o 	Loading Environment Settings ...
+\o 	Loading Model Management File ...
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o Loading msgHandler.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 45nm PDK                       *           
+\o   *                        (gpdk045)                          *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o 	
+\o 
+\o 	VERSION: 4.0 (17-June-2014)
+\o 
+\o done!
+\# Memory report: using         388 MB, process size 1,940 MB at UTC 2025.04.28 12:23:09.017
+\o Failed to load gpdk045/libInit.il successfully!INFO (ADE-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o *Info*    Run start for points ((0 1) (0 2) (0 3) (0 4) (0 5) (0 6))
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 1) on testbench [
+\o           damsicOurs_GBOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var A = "4"
+\o Setting var B = "2"
+\o Setting var Cl = "2.5p"
+\o Setting var FreqIn = "1k"
+\o Setting var GB1_A = "5"
+\o Setting var GB1_Cl = "50p"
+\o Setting var GB1_nL1 = "6"
+\o Setting var GB1_nL3 = "3"
+\o Setting var GB1_nL5 = "9"
+\o Setting var GB1_nL6 = "9"
+\o Setting var GB1_nL7 = "9"
+\o Setting var GB1_nl2 = "6"
+\o Setting var GB1_nnF3 = "33"
+\o Setting var GB1_nnF5 = "140"
+\o Setting var GB1_nnW3 = "20"
+\o Setting var GB1_nnW5 = "20"
+\o Setting var GB1_npF1 = "100"
+\o Setting var GB1_npF2 = "170"
+\o Setting var GB1_npF6 = "278"
+\o Setting var GB1_npF7 = "278"
+\o Setting var GB1_npW1 = "20"
+\o Setting var GB1_npW2 = "20"
+\o Setting var GB1_npW6 = "20"
+\o Setting var GB1_npW7 = "20"
+\o Setting var GB1_r_cmfb = "200"
+\o Setting var GB1_vb1 = "0.52"
+\o Setting var GB1_vb3 = "0.66"
+\o Setting var GB1_vb5 = "0.67"
+\o Setting var GB1_vb6 = "0.5"
+\o Setting var GB1_vb7 = "0.59"
+\o Setting var GB2_A = "4"
+\o Setting var GB2_Cl = "2.5p"
+\o Setting var GB2_nL1 = "6"
+\o Setting var GB2_nL5 = "9"
+\o Setting var GB2_nL6 = "9"
+\o Setting var GB2_nL7 = "3"
+\o Setting var GB2_nl2 = "9"
+\o Setting var GB2_nl3 = "9"
+\o Setting var GB2_nnF3 = "213"
+\o Setting var GB2_nnF5 = "213"
+\o Setting var GB2_nnW3 = "20"
+\o Setting var GB2_nnW5 = "20"
+\o Setting var GB2_npF1 = "53"
+\o Setting var GB2_npF2 = "88"
+\o Setting var GB2_npF6 = "203"
+\o Setting var GB2_npF7 = "53"
+\o Setting var GB2_npW1 = "20"
+\o Setting var GB2_npW2 = "20"
+\o Setting var GB2_npW6 = "20"
+\o Setting var GB2_npW7 = "20"
+\o Setting var GB2_r_cmfb = "200"
+\o Setting var GB2_vb1 = "0.613"
+\o Setting var GB2_vb3 = "0.49"
+\o Setting var GB2_vb5 = "0.64"
+\o Setting var GB2_vb6 = "0.2"
+\o Setting var GB2_vb7 = "0.45"
+\o Setting var INCM = "0.55"
+\o Setting var INDM = "0.05"
+\o Setting var OUTCMREF = "0.55"
+\o Setting var gm_GB = "20m"
+\o Setting var nL = "5"
+\o Setting var nL1 = "5"
+\o Setting var nL7 = "5"
+\o Setting var nl2 = "5"
+\o Setting var nl3 = "3"
+\o Setting var nnF4 = "30"
+\o Setting var nnF5 = "140"
+\o Setting var nnW3 = "20"
+\o Setting var nnW5 = "20"
+\o Setting var npF1 = "222"
+\o Setting var npF2 = "222"
+\o Setting var npF6 = "170"
+\o Setting var npF7 = "170"
+\o Setting var npW1 = "20"
+\o Setting var npW2 = "20"
+\o Setting var npW6 = "20"
+\o Setting var npW7 = "20"
+\o Setting var r_cmfb = "200"
+\o Setting var ro_GB = "5k"
+\o Setting temp(T) = 27
+\o Setting var vb1 = "0.55"
+\o Setting var vb5 = "0.85"
+\o Setting var vb6 = "0.3"
+\o Setting var vb7 = "0.55"
+\o Setting var vdd = "1.1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_GBOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_GBOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 1)
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\# [14:23:10.139569] Periodic Lic check successful
+\# [14:23:10.139570] Feature usage summary:
+\o Begin Incremental Netlisting Apr 28 14:23:10 2025
+\o WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+\o compared to the last session in the current run directory. The netlist(s)
+\o generated in the last netlisting session cannot be reused for incremental
+\o netlisting. Therefore re-netlisting the design.
+\o 
+\o WARNING (ADE-6003): Terminal "gnd", specified in the CDF termOrder, does not exist
+\o            in the cell-view "damsicOurs" "FCOTA1_withCMFB" "schematic"
+\o WARNING (ADE-6003): Terminal "vdd", specified in the CDF termOrder, does not exist
+\o            in the cell-view "damsicOurs" "FCOTA1_withCMFB" "schematic"
+\o WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+\o            termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+\o            be ignored. The terminals in the cellView will be netlisted in the alphabetical
+\o            order of their names. Eliminate the mismatch if you want the CDF termOrder
+\o            property to be used for netlisting.
+\o            To edit CDF of a cell, 
+\o            i) Open CIW->Tools->CDF->Edit.
+\o            ii) Select Library Name & Cell Name.
+\o            iii) Click on the Edit button in the simulation information section of the
+\o                 Edit CDF window.
+\o WARNING (ADE-6003): Terminal "gnd", specified in the CDF termOrder, does not exist
+\o            in the cell-view "damsicOurs" "FCOTA2_withCMFB" "schematic"
+\o WARNING (ADE-6003): Terminal "vdd", specified in the CDF termOrder, does not exist
+\o            in the cell-view "damsicOurs" "FCOTA2_withCMFB" "schematic"
+\o WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+\o            termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+\o            be ignored. The terminals in the cellView will be netlisted in the alphabetical
+\o            order of their names. Eliminate the mismatch if you want the CDF termOrder
+\o            property to be used for netlisting.
+\o            To edit CDF of a cell, 
+\o            i) Open CIW->Tools->CDF->Edit.
+\o            ii) Select Library Name & Cell Name.
+\o            iii) Click on the Edit button in the simulation information section of the
+\o                 Edit CDF window.
+\o Loading json.cxt 
+\o End netlisting Apr 28 14:23:10 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   76
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 6
+\o *Warning*	Additional design variables have been found during netlisting.
+\o  		A value is necessary for successful simulation.
+\o 		To simulate, assign values to all design variables with 
+\o 		the Variables->Edit... menu, and use "Netlist and Run".
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_GBOTA_Transient_AC_TB_1 ] for Point ID (0 1).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_GBOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+\o         on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+\o         to view the simulation run log.
+\o 
+\o *Error*   Error ID  = 5011
+\o *Error*   Error Msg = Simulator failed to complete the simulation.
+\o 
+\o           Error found by spectre in `FCOTA2_withCMFB':`I17.I6', in
+\o           `Gain_boosting_OTA':`I17', during hierarchy
+\o           flattening.
+\o Error found by spectre in
+\o           `FCOTA2_withCMFB':`I17.I6', in `Gain_boosting_OTA':`I17',
+\o           during hierarchy flattening.
+\o ERROR (SFE-1997): "input.scs"
+\o           229: Cannot run the simulation because I17.I6.NM5r:
+\o           parameter `sca': Cannot run the simulation because
+\o           parameter 'nL5' h
+\o as been used but no value has been
+\o           assigned to it. Assign a value to the parameter and rerun
+\o           the simulation.
+\o ERROR (SFE-1997): "input.scs" 229: Cannot
+\o           run the simulation because I17.I6.NM5r: parameter `scb':
+\o           Cannot run the simulation because parameter 'nL5' h
+\o as been
+\o           used but no value has been assigned to it. Assign a value
+\o           to the parameter and rerun the simulation.
+\o ERROR
+\o           (SFE-1997): "input.scs" 229: Cannot run the simulation
+\o           because I17.I6.NM5r: parameter `scc': Cannot run the
+\o           simulation because parameter 'nL5' h
+\o as been used but no
+\o           value has been assigned to it. Assign a value to the
+\o           parameter and rerun the simulation.
+\o ERROR (SFE-1997):
+\o           "input.scs" 327: Cannot run the simulation because
+\o           I17.I6.PM6r: parameter `sca': Cannot run the simulation
+\o           because parameter 'nL6' h
+\o as been used but no value has
+\o           been assigned to it. Assign a value to the parameter and
+\o           rerun the simulation.
+\o ERROR (SFE-1997): "input.scs" 327:
+\o           Cannot run the simulation because I17.I6.PM6r: parameter
+\o           `scb': Cannot run the simulation because parameter 'nL6'
+\o           h
+\o as been used but no value has been assigned to it. Assign
+\o           a value to the parameter and rerun the simulation.
+\o ERROR
+\o           (SFE-1997): "input.scs" 327: Cannot run the simulation
+\o           because I17.I6.PM6r: parameter `scc': Cannot run the
+\o           simulation because parameter 'nL6' h
+\o as been used but no
+\o           value has been assigned to it. Assign a value to the
+\o           parameter and rerun the simulation.
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* Error occurred while simulating the design for the point ID (0 1).
+\e ("error" 0 t nil ("*Error* "))
+\e 
+\e 
+\o 
+\o *Error*   Error ID  = 5011
+\o *Error*   Error Msg = Failed to launch the simulation.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 2) on testbench [
+\o           damsicOurs_GBOTA_Transient_AC_TB_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var A = "4"
+\o Setting var B = "2"
+\o Setting var Cl = "2.5p"
+\o Setting var FreqIn = "1k"
+\o Setting var GB1_A = "5"
+\o Setting var GB1_Cl = "60p"
+\o Setting var GB1_nL1 = "6"
+\o Setting var GB1_nL3 = "3"
+\o Setting var GB1_nL5 = "9"
+\o Setting var GB1_nL6 = "9"
+\o Setting var GB1_nL7 = "9"
+\o Setting var GB1_nl2 = "6"
+\o Setting var GB1_nnF3 = "33"
+\o Setting var GB1_nnF5 = "140"
+\o Setting var GB1_nnW3 = "20"
+\o Setting var GB1_nnW5 = "20"
+\o Setting var GB1_npF1 = "100"
+\o Setting var GB1_npF2 = "170"
+\o Setting var GB1_npF6 = "278"
+\o Setting var GB1_npF7 = "278"
+\o Setting var GB1_npW1 = "20"
+\o Setting var GB1_npW2 = "20"
+\o Setting var GB1_npW6 = "20"
+\o Setting var GB1_npW7 = "20"
+\o Setting var GB1_r_cmfb = "200"
+\o Setting var GB1_vb1 = "0.52"
+\o Setting var GB1_vb3 = "0.66"
+\o Setting var GB1_vb5 = "0.67"
+\o Setting var GB1_vb6 = "0.5"
+\o Setting var GB1_vb7 = "0.59"
+\o Setting var GB2_A = "4"
+\o Setting var GB2_Cl = "2.5p"
+\o Setting var GB2_nL1 = "6"
+\o Setting var GB2_nL5 = "9"
+\o Setting var GB2_nL6 = "9"
+\o Setting var GB2_nL7 = "3"
+\o Setting var GB2_nl2 = "9"
+\o Setting var GB2_nl3 = "9"
+\o Setting var GB2_nnF3 = "213"
+\o Setting var GB2_nnF5 = "213"
+\o Setting var GB2_nnW3 = "20"
+\o Setting var GB2_nnW5 = "20"
+\o Setting var GB2_npF1 = "53"
+\o Setting var GB2_npF2 = "88"
+\o Setting var GB2_npF6 = "203"
+\o Setting var GB2_npF7 = "53"
+\o Setting var GB2_npW1 = "20"
+\o Setting var GB2_npW2 = "20"
+\o Setting var GB2_npW6 = "20"
+\o Setting var GB2_npW7 = "20"
+\o Setting var GB2_r_cmfb = "200"
+\o Setting var GB2_vb1 = "0.613"
+\o Setting var GB2_vb3 = "0.49"
+\o Setting var GB2_vb5 = "0.64"
+\o Setting var GB2_vb6 = "0.2"
+\o Setting var GB2_vb7 = "0.45"
+\o Setting var INCM = "0.55"
+\o Setting var INDM = "0.05"
+\o Setting var OUTCMREF = "0.55"
+\o Setting var gm_GB = "20m"
+\o Setting var nL = "5"
+\o Setting var nL1 = "5"
+\o Setting var nL7 = "5"
+\o Setting var nl2 = "5"
+\o Setting var nl3 = "3"
+\o Setting var nnF4 = "30"
+\o Setting var nnF5 = "140"
+\o Setting var nnW3 = "20"
+\o Setting var nnW5 = "20"
+\o Setting var npF1 = "222"
+\o Setting var npF2 = "222"
+\o Setting var npF6 = "170"
+\o Setting var npF7 = "170"
+\o Setting var npW1 = "20"
+\o Setting var npW2 = "20"
+\o Setting var npW6 = "20"
+\o Setting var npW7 = "20"
+\o Setting var r_cmfb = "200"
+\o Setting var ro_GB = "5k"
+\o Setting temp(T) = 27
+\o Setting var vb1 = "0.55"
+\o Setting var vb5 = "0.85"
+\o Setting var vb6 = "0.3"
+\o Setting var vb7 = "0.55"
+\o Setting var vdd = "1.1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/2/damsicOurs_GBOTA_Transient_AC_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/2/damsicOurs_GBOTA_Transient_AC_TB_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 28 14:23:13 2025
+\o WARNING (OSSHNL-225): The design variable 'nL5', used in the last netlisting session in the current
+\o run directory is not used in this netlisting session. The netlist(s) generated
+\o in the last netlisting session cannot be reused for incremental netlisting.
+\o Therefore re-netlisting the design.
+\o 
+\o WARNING (ADE-6003): Terminal "gnd", specified in the CDF termOrder, does not exist
+\o            in the cell-view "damsicOurs" "FCOTA1_withCMFB" "schematic"
+\o WARNING (ADE-6003): Terminal "vdd", specified in the CDF termOrder, does not exist
+\o            in the cell-view "damsicOurs" "FCOTA1_withCMFB" "schematic"
+\o WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+\o            termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+\o            be ignored. The terminals in the cellView will be netlisted in the alphabetical
+\o            order of their names. Eliminate the mismatch if you want the CDF termOrder
+\o            property to be used for netlisting.
+\o            To edit CDF of a cell, 
+\o            i) Open CIW->Tools->CDF->Edit.
+\o            ii) Select Library Name & Cell Name.
+\o            iii) Click on the Edit button in the simulation information section of the
+\o                 Edit CDF window.
+\o WARNING (ADE-6003): Terminal "gnd", specified in the CDF termOrder, does not exist
+\o            in the cell-view "damsicOurs" "FCOTA2_withCMFB" "schematic"
+\o WARNING (ADE-6003): Terminal "vdd", specified in the CDF termOrder, does not exist
+\o            in the cell-view "damsicOurs" "FCOTA2_withCMFB" "schematic"
+\o WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+\o            termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+\o            be ignored. The terminals in the cellView will be netlisted in the alphabetical
+\o            order of their names. Eliminate the mismatch if you want the CDF termOrder
+\o            property to be used for netlisting.
+\o            To edit CDF of a cell, 
+\o            i) Open CIW->Tools->CDF->Edit.
+\o            ii) Select Library Name & Cell Name.
+\o            iii) Click on the Edit button in the simulation information section of the
+\o                 Edit CDF window.
+\o End netlisting Apr 28 14:23:14 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   76
+\o 
+\o 	Elapsed time:          1.0s (76.00/s)
+\o Errors: 0	Warnings: 6
+\o *Warning*	Additional design variables have been found during netlisting.
+\o  		A value is necessary for successful simulation.
+\o 		To simulate, assign values to all design variables with 
+\o 		the Variables->Edit... menu, and use "Netlist and Run".
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           damsicOurs_GBOTA_Transient_AC_TB_1 ] for Point ID (0 2).
+\o 
+\o Delete psf data in /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/2/damsicOurs_GBOTA_Transient_AC_TB_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+\o         on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+\o         to view the simulation run log.
+\o 
+\o *Error*   Error ID  = 5011
+\o *Error*   Error Msg = Simulator failed to complete the simulation.
+\o 
+\o           Error found by spectre in `FCOTA2_withCMFB':`I17.I6', in
+\o           `Gain_boosting_OTA':`I17', during hierarchy
+\o           flattening.
+\o Error found by spectre in
+\o           `FCOTA2_withCMFB':`I17.I6', in `Gain_boosting_OTA':`I17',
+\o           during hierarchy flattening.
+\o ERROR (SFE-1997): "input.scs"
+\o           229: Cannot run the simulation because I17.I6.NM5r:
+\o           parameter `sca': Cannot run the simulation because
+\o           parameter 'nL5' h
+\o as been used but no value has been
+\o           assigned to it. Assign a value to the parameter and rerun
+\o           the simulation.
+\o ERROR (SFE-1997): "input.scs" 229: Cannot
+\o           run the simulation because I17.I6.NM5r: parameter `scb':
+\o           Cannot run the simulation because parameter 'nL5' h
+\o as been
+\o           used but no value has been assigned to it. Assign a value
+\o           to the parameter and rerun the simulation.
+\o ERROR
+\o           (SFE-1997): "input.scs" 229: Cannot run the simulation
+\o           because I17.I6.NM5r: parameter `scc': Cannot run the
+\o           simulation because parameter 'nL5' h
+\o as been used but no
+\o           value has been assigned to it. Assign a value to the
+\o           parameter and rerun the simulation.
+\o ERROR (SFE-1997):
+\o           "input.scs" 327: Cannot run the simulation because
+\o           I17.I6.PM6r: parameter `sca': Cannot run the simulation
+\o           because parameter 'nL6' h
+\o as been used but no value has
+\o           been assigned to it. Assign a value to the parameter and
+\o           rerun the simulation.
+\o ERROR (SFE-1997): "input.scs" 327:
+\o           Cannot run the simulation because I17.I6.PM6r: parameter
+\o           `scb': Cannot run the simulation because parameter 'nL6'
+\o           h
+\o as been used but no value has been assigned to it. Assign
+\o           a value to the parameter and rerun the simulation.
+\o ERROR
+\o           (SFE-1997): "input.scs" 327: Cannot run the simulation
+\o           because I17.I6.PM6r: parameter `scc': Cannot run the
+\o           simulation because parameter 'nL6' h
+\o as been used but no
+\o           value has been assigned to it. Assign a value to the
+\o           parameter and rerun the simulation.
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* Error occurred while simulating the design for the point ID (0 2).
+\e ("error" 0 t nil ("*Error* "))
+\e 
+\e 
+\o 
+\o *Error*   Error ID  = 5011
+\o *Error*   Error Msg = Failed to launch the simulation.
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 

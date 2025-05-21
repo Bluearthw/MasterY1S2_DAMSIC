@@ -1,0 +1,172 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = damsicOurs
+	Cell         = GBOTA_Transient_AC_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.0
+	Results DB   = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_GBOTA_Transient_AC_TB_1
+	Results Loc  = /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro
+	Project Dir  = /users/students/r0926826/simulation
+	Setup DB loc = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/GBOTA_Transient_AC_TB/maestro
+	File Encoding = 0
+
+
+INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (21 1) on testbench [
+          damsicOurs_GBOTA_Transient_AC_TB_1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var A = "2"
+Setting var B = "2"
+Setting var Cl = "2.5p"
+Setting var FreqIn = "1k"
+Setting var GB1_A = "3"
+Setting var GB1_Cl = "5p"
+Setting var GB1_nL1 = "6"
+Setting var GB1_nL3 = "3"
+Setting var GB1_nL5 = "9"
+Setting var GB1_nL6 = "9"
+Setting var GB1_nL7 = "9"
+Setting var GB1_nl2 = "6"
+Setting var GB1_nnF3 = "33"
+Setting var GB1_nnF5 = "190"
+Setting var GB1_nnW3 = "20"
+Setting var GB1_nnW5 = "20"
+Setting var GB1_npF1 = "100"
+Setting var GB1_npF2 = "170"
+Setting var GB1_npF6 = "425"
+Setting var GB1_npF7 = "425"
+Setting var GB1_npW1 = "20"
+Setting var GB1_npW2 = "20"
+Setting var GB1_npW6 = "20"
+Setting var GB1_npW7 = "20"
+Setting var GB1_r_cmfb = "200"
+Setting var GB1_vb1 = "0.52"
+Setting var GB1_vb3 = "0.66"
+Setting var GB1_vb5 = "0.67"
+Setting var GB1_vb6 = "0.54"
+Setting var GB1_vb7 = "0.59"
+Setting var GB2_A = "3"
+Setting var GB2_Cl = "5p"
+Setting var GB2_nL1 = "6"
+Setting var GB2_nL5 = "9"
+Setting var GB2_nL6 = "9"
+Setting var GB2_nL7 = "3"
+Setting var GB2_nl2 = "9"
+Setting var GB2_nl3 = "9"
+Setting var GB2_nnF3 = "213"
+Setting var GB2_nnF5 = "263"
+Setting var GB2_nnW3 = "20"
+Setting var GB2_nnW5 = "20"
+Setting var GB2_npF1 = "53"
+Setting var GB2_npF2 = "88"
+Setting var GB2_npF6 = "203"
+Setting var GB2_npF7 = "53"
+Setting var GB2_npW1 = "20"
+Setting var GB2_npW2 = "20"
+Setting var GB2_npW6 = "20"
+Setting var GB2_npW7 = "20"
+Setting var GB2_r_cmfb = "200"
+Setting var GB2_vb1 = "0.613"
+Setting var GB2_vb3 = "0.3"
+Setting var GB2_vb5 = "0.65"
+Setting var GB2_vb6 = "0.21"
+Setting var GB2_vb7 = "0.47"
+Setting var INCM = "0.55"
+Setting var INDM = "0.05"
+Setting var OUTCMREF = "0.55"
+Setting var gm_GB = "20m"
+Setting var nL = "5"
+Setting var nL1 = "5"
+Setting var nL7 = "5"
+Setting var nl2 = "5"
+Setting var nl3 = "3"
+Setting var nnF4 = "30"
+Setting var nnF5 = "150"
+Setting var nnW3 = "20"
+Setting var nnW5 = "20"
+Setting var npF1 = "222"
+Setting var npF2 = "190"
+Setting var npF6 = "200"
+Setting var npF7 = "170"
+Setting var npW1 = "20"
+Setting var npW2 = "20"
+Setting var npW6 = "20"
+Setting var npW7 = "20"
+Setting var r_cmfb = "100"
+Setting var ro_GB = "5k"
+Setting temp(T) = 27
+Setting var vb1 = "0.55"
+Setting var vb5 = "0.83"
+Setting var vb6 = "0.29"
+Setting var vb7 = "0.55"
+Setting var vdd = "1.1"
+
+*Info*    Netlist Directory =
+          /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_GBOTA_Transient_AC_TB_1/netlist
+
+
+*Info*    Data Directory    =
+          /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_GBOTA_Transient_AC_TB_1
+
+
+*Info*    Creating Netlist for Point ID (21 1)
+
+generate netlist...
+Begin Incremental Netlisting Apr 30 17:12:20 2025
+End netlisting Apr 30 17:12:20 2025
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          damsicOurs_GBOTA_Transient_AC_TB_1 ] for Point ID (21 1).
+
+Delete psf data in /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_GBOTA_Transient_AC_TB_1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (21 1) on testbench [
+          damsicOurs_GBOTA_Transient_AC_TB_1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

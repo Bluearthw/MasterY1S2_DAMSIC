@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2025.02.21 11:01:21.482
-\# Local time: CET (UTC+01:00) 2025.02.21 12:01:21.482
+\# Program start time:     UTC 2025.04.17 09:47:45.034
+\# Local time: CEST (UTC+02:00) 2025.04.17 11:47:45.034
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 03/14/2023 19:53 (cpgsrv12) $
 \o Hierarchy:		/esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.31  (64-bit addresses)
-\# Command line:	/esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso9577 -mpshost pc-klas2-15.esat.kuleuven.be -davinciService DaVinciService_9577_1740133457 -log /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/logs_r0926826/logs1/Job9.log -licenseLockFileName /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/.tmp_r0926826/.pc-klas2-15.esat.kuleuven.be_9577 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 9
+\# Command line:	/esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso12675 -mpshost pc-klas2-15.esat.kuleuven.be -davinciService DaVinciService_12675_1744879973 -log /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/logs_r0926826/logs1/Job9.log -licenseLockFileName /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/.tmp_r0926826/.pc-klas2-15.esat.kuleuven.be_12675 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 9
 \# Host name (type):	pc-klas2-15.esat.kuleuven.be (x86_64)
-\# Operating system:	Linux 5.14.0-503.23.2.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Feb 13 09:52:14 UTC 2025
+\# Operating system:	Linux 5.14.0-503.35.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Apr 3 12:12:16 UTC 2025
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:3946 (1024x868)
+\# X display name (WxH):	:4409 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        624 MB
-\# Available memory:	     42,236 MB
+\# Initial sbrk value:	        627 MB
+\# Available memory:	     43,517 MB
 \# System memory:	     48,245 MB
-\# Maximum memory size:	     47,740 MB
-\# Max mem available:	     42,354 MB
+\# Maximum memory size:	     47,737 MB
+\# Max mem available:	     43,635 MB
 \# Initial memory used:	        118 MB
 \#        process size:	      1,539 MB
 \# Thread usage limits (effective/default):	maxthreads 5166/5166 maxload 12.00/12.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		r0926826
 \o Working Directory:	pc-klas2-15.esat.kuleuven.be:/users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work
-\# Process Id:		25761
+\# Process Id:		30986
 \o 
 \o COPYRIGHT (C) 1992-2023  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2023  UNIX SYSTEMS Laboratories INC.,
@@ -66,7 +66,6 @@
 \o Loading caa.cxt 
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
-\# Memory report: using         227 MB, process size 1,772 MB at UTC 2025.02.21 11:01:22.103
 \o Loading adexl.cxt 
 \o *Info*    Exporting services from client ... 
 \o 
@@ -74,12 +73,17 @@
 \o Loading cpf.cxt 
 \o Loading cli.cxt 
 \o Loading lp.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso9577, host=pc-klas2-15.esat.kuleuven.be). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso12675, host=pc-klas2-15.esat.kuleuven.be). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 25761 within 90 seconds is being processed...
+\o INFO (ELI-00304) The registration of the child 30986 within 90 seconds is being processed...
 \o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
 \o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\# [12:01:21.458554] Configured Lic search path (22.01-s002): 27002@license-extern.esat.kuleuven.be:/esat/micas-data/software/Cadence/ic_6.1.8.310/share/license/license.dat
+\# [11:47:45.458674] Configured Lic search path (22.01-s002): 27002@license-extern.esat.kuleuven.be:/esat/micas-data/software/Cadence/ic_6.1.8.310/share/license/license.dat
+\w *WARNING* '/users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/cds.lib', Line 9: Skipping: 'DAMSI_ours'
+\o  /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/DAMSI_ours
+\# Memory report: using         266 MB, process size 1,816 MB at UTC 2025.04.17 09:47:47.929
+\w *WARNING* The directory: '/users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/SESSION_1_EXCERCISEDEFINE' does not exist
+\w 	but was defined in libFile '/users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/cds.lib' for Lib 'SESSION_1_EXCERCISE'.
 \o *Info*    Client has finished starting ... 
 \o 
 \o Loading vdsil.cxt 
@@ -87,9 +91,14 @@
 \# Loading perfDiag...
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
 \w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 25761' to open it when Virtuoso freezes.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 30986' to open it when Virtuoso freezes.
 \# (PerfDiag): Use backtrace from GLIBC.
 \w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
-\# Available memory:         42,108 MB at UTC 2025.02.21 11:01:32.172
-\# Memory report: Maximum memory size now 42,394 MB at UTC 2025.02.21 11:01:32.172
-\# Thread usage report: 18 active threads, active load 1.40 at UTC 2025.02.21 11:01:32.172
+\# Available memory:         43,520 MB at UTC 2025.04.17 09:47:55.168
+\# Memory report: Maximum memory size now 43,807 MB at UTC 2025.04.17 09:47:55.168
+\# Thread usage report: 18 active threads, active load 1.40 at UTC 2025.04.17 09:47:55.168
+\o Loading simui.cxt 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

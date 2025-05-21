@@ -1,0 +1,203 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = damsicOurs
+	Cell         = SOTA_Transient_AC_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.0
+	Results DB   = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1
+	Results Loc  = /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro
+	Project Dir  = /users/students/r0926826/simulation
+	Setup DB loc = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_Transient_AC_TB/maestro
+	File Encoding = 0
+
+
+INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+
+*Info*    The auto suspension is disabled.
+
+Loading monte.cxt 
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [
+          damsicOurs_SOTA_Transient_AC_TB_1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var A = "1"
+Setting var B = "2"
+Setting var Cl = "2.5p"
+Setting var FreqIn = "80M"
+Setting var INCM = "0.475"
+Setting var INDM = "0.05"
+Setting var OUTCMREF = "0.55"
+Setting var nL = "10"
+Setting var nL1 = "5"
+Setting var nL7 = "10"
+Setting var nW = "20"
+Setting var nl2 = "5"
+Setting var nl3 = "10"
+Setting var nnF = "150"
+Setting var npF = "150"
+Setting var npF1 = "150"
+Setting var npF6 = "150"
+Setting var npF7 = "150"
+Setting var npM = "1"
+Setting var npW = "10"
+Setting var npW1 = "20"
+Setting var npW6 = "20"
+Setting var npW7 = "20"
+Setting var npW_inputPair = "20"
+Setting temp(T) = 27
+Setting var vb5 = "0.95"
+Setting var vb6 = "0.3"
+Setting var vb7 = "0.5"
+Setting var vdd = "1.1"
+
+*Info*    Netlist Directory =
+          /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1/netlist
+
+
+*Info*    Data Directory    =
+          /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+Loading hnlInit.cxt 
+Loading seCore.cxt 
+Begin Incremental Netlisting Mar 28 12:35:54 2025
+Loading json.cxt 
+End netlisting Mar 28 12:35:54 2025
+
+Netlisting Statistics:
+	Number of components:   13
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
+*Warning*	Additional design variables have been found during netlisting.
+ 		A value is necessary for successful simulation.
+		To simulate, assign values to all design variables with 
+		the Variables->Edit... menu, and use "Netlist and Run".
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          damsicOurs_SOTA_Transient_AC_TB_1 ] for Point ID (0 1).
+
+Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+Loading paraplot.cxt 
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
+
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
+
+          Error found by spectre in `symmetrical':`I11', during
+          hierarchy flattening.
+Error found by spectre in
+          `symmetrical':`I11', during hierarchy flattening.
+ERROR
+          (SFE-1997): "input.scs" 19: Cannot run the simulation
+          because I11.PM2l: parameter `w': Cannot run the simulation
+          because parameter 'npF2' has be
+en used but no value has
+          been assigned to it. Assign a value to the parameter and
+          rerun the simulation.
+ERROR (SFE-1997): "input.scs" 19:
+          Cannot run the simulation because I11.PM2l: parameter `ad':
+          Cannot run the simulation because parameter 'npF2' has
+          b
+een used but no value has been assigned to it. Assign a
+          value to the parameter and rerun the simulation.
+ERROR
+          (SFE-1997): "input.scs" 19: Cannot run the simulation
+          because I11.PM2l: parameter `as': Cannot run the simulation
+          because parameter 'npF2' has b
+een used but no value has
+          been assigned to it. Assign a value to the parameter and
+          rerun the simulation.
+ERROR (SFE-1997): "input.scs" 19:
+          Cannot run the simulation because I11.PM2l: parameter `pd':
+          Cannot run the simulation because parameter 'npF2' has
+          b
+een used but no value has been assigned to it. Assign a
+          value to the parameter and rerun the simulation.
+ERROR
+          (SFE-1997): "input.scs" 19: Cannot run the simulation
+          because I11.PM2l: parameter `ps': Cannot run the simulation
+          because parameter 'npF2' has b
+een used but no value has
+          been assigned to it. Assign a value to the parameter and
+          rerun the simulation.
+ERROR (SFE-1997): "input.scs" 19:
+          Cannot run the simulation because I11.PM2l: parameter
+          `nrd': Cannot run the simulation because parameter 'npF2'
+          has 
+been used but no value has been assigned to it. Assign
+          a value to the parameter and rerun the simulation.
+ERROR
+          (SFE-1997): "input.scs" 19: Cannot run the simulation
+          because I11.PM2l: parameter `nrs': Cannot run the
+          simulation because parameter 'npF2' has 
+been used but no
+          value has been assigned to it. Assign a value to the
+          parameter and rerun the simulation.
+ERROR (SFE-1997):
+          "input.scs" 19: Cannot run the simulation because I11.PM2l:
+          parameter `nf': Cannot run the simulation because parameter
+          'npF2' has b
+een used but no value has been assigned to it.
+          Assign a value to the parameter and rerun the
+          simulation.
+ERROR (SFE-1997): "input.scs" 19: Cannot run
+          the simulation because I11.PM2l: parameter `sa': Cannot run
+          the simulation because parameter 'npW2' has b
+een used but
+          no value has been assigned to it. Assign a value to the
+          parameter and rerun the simulation.
+ERROR (SFE-1997):
+          "input.scs" 19: Cannot run the simulation because I11.PM2l:
+          parameter `sb': Cannot run the simulation because parameter
+          'npW2' has b
+een used but no value has been assigned to it.
+          Assign a value to the parameter and rerun the
+          simulation.
+ERROR (SFE-1997): "input.scs" 19: Cannot run
+          the simulation because I11.PM2l: parameter `sd': Cannot run
+          the simulation because parameter 'npW2' has b
+een used but
+          no value has been assigned to it. Assign a value to the
+          parameter and rerun the simulation.
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

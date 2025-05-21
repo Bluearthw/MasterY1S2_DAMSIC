@@ -1,0 +1,18 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 02/10/2023 14:07 (cpgsrv13) $
+\o Sub version:		sub-version  s312 
+\o Arguments:		-display :1 -mpssession virtuoso28753 -mpshost pc-klas1-13.esat.kuleuven.be -mpsversion 6.18 -namespace CDBA -cdslib /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/cds.lib 
+\o Working Directory:	pc-klas1-13.esat.kuleuven.be:/users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "analogLib"
+\a nrResizeWindow(cdsLibEditor list(21 53 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 4 1)
+\o Active cell: 4 1 "./DAMSIC"
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 3 1)
+\o Active cell: 3 1 "./gpdk045"
+\a nrSetCurrentWindow(cdsLibEditor)
+\a exit(0)

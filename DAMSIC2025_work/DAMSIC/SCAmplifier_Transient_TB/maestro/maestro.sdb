@@ -37,19 +37,19 @@
 						<value>0.5p</value>
 					</var>
 					<var>Cin
-						<value>5.5p</value>
+						<value>5p</value>
 					</var>
 					<var>Cl
-						<value>2.7p</value>
+						<value>2.5p</value>
 					</var>
 					<var>fin
-						<value>100K</value>
+						<value>VAR("fsw")/2</value>
 					</var>
 					<var>fsw
 						<value>80M</value>
 					</var>
 					<var>OUTCMRef
-						<value>0.5</value>
+						<value>0.55</value>
 					</var>
 					<var>vdd
 						<value>1.1</value>
@@ -58,16 +58,16 @@
 						<value>100m</value>
 					</var>
 					<var>INCM
-						<value>0.5</value>
+						<value>0.55</value>
 					</var>
 					<var>C_OTA
 						<value>0.5p</value>
 					</var>
 					<var>gm_OTA
-						<value>20m</value>
+						<value>22.4m</value>
 					</var>
 					<var>ro_OTA
-						<value>50k</value>
+						<value>0.55M</value>
 					</var>
 					<var>RSW_OFF
 						<value>100M</value>
@@ -77,6 +77,9 @@
 					</var>
 					<var>VSW_TH
 						<value>0.55</value>
+					</var>
+					<var>CP2
+						<value>1/(6.28*1.1G)</value>
 					</var>
 				</vars>
 				<origoptions>
@@ -96,6 +99,17 @@
 						<value>schematic</value>
 					</option>
 				</origoptions>
+				<outputs>
+					<output>(((VT("/INDM") * 10) - VT("/OUTDM")) / (VT("/INDM") * 10))
+						<evalType>point</evalType>
+					</output>
+					<output>(((VT("/INDM") * 10) + VT("/OUTDM")) / (VT("/INDM") * 10))
+						<evalType>point</evalType>
+					</output>
+					<output>(((VT("/INDM") * 10) + VT("/OUTDM")) / (VT("/INDM")))
+						<evalType>point</evalType>
+					</output>
+				</outputs>
 			</test>
 		</tests>
 		<extensions>
@@ -191,19 +205,19 @@
 								<value>0.5p</value>
 							</var>
 							<var>Cin
-								<value>5.5p</value>
+								<value>5p</value>
 							</var>
 							<var>Cl
-								<value>2.7p</value>
+								<value>2.5p</value>
 							</var>
 							<var>fin
-								<value>100K</value>
+								<value>VAR("fsw")/2</value>
 							</var>
 							<var>fsw
 								<value>80M</value>
 							</var>
 							<var>OUTCMRef
-								<value>0.5</value>
+								<value>0.55</value>
 							</var>
 							<var>vdd
 								<value>1.1</value>
@@ -212,16 +226,16 @@
 								<value>100m</value>
 							</var>
 							<var>INCM
-								<value>0.5</value>
+								<value>0.55</value>
 							</var>
 							<var>C_OTA
 								<value>0.5p</value>
 							</var>
 							<var>gm_OTA
-								<value>20m</value>
+								<value>22.4m</value>
 							</var>
 							<var>ro_OTA
-								<value>50k</value>
+								<value>0.55M</value>
 							</var>
 							<var>RSW_OFF
 								<value>100M</value>
@@ -231,6 +245,9 @@
 							</var>
 							<var>VSW_TH
 								<value>0.55</value>
+							</var>
+							<var>CP2
+								<value>1/(6.28*1.1G)</value>
 							</var>
 						</vars>
 						<origoptions>
@@ -250,6 +267,17 @@
 								<value>schematic</value>
 							</option>
 						</origoptions>
+						<outputs>
+							<output>(((VT("/INDM") * 10) - VT("/OUTDM")) / (VT("/INDM") * 10))
+								<evalType>point</evalType>
+							</output>
+							<output>(((VT("/INDM") * 10) + VT("/OUTDM")) / (VT("/INDM") * 10))
+								<evalType>point</evalType>
+							</output>
+							<output>(((VT("/INDM") * 10) + VT("/OUTDM")) / (VT("/INDM")))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
 					</test>
 				</tests>
 				<extensions>
@@ -364,8 +392,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Feb 28 10:06:11 2025</timestamp>
-			<uuid>{3c274d5e-6eea-42d3-980e-43b64d6fe40a}</uuid>
+			<timestamp>May 2 09:09:36 2025</timestamp>
+			<uuid>{94f7a29e-2375-4a00-8da0-f428018ab4b5}</uuid>
 			<resultsname>/users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -374,7 +402,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas2-16.esat.kuleuven.be_r0926826_100611835</localpsfdir>
+			<localpsfdir>/tmp/stud-r9-27.esat.kuleuven.be_r0926826_090936323</localpsfdir>
 			<psfdir>/users/students/r0926826/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>

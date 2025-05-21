@@ -29,7 +29,7 @@ INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC ver
 
 
 
-*Info*    Run start for Point ID (2 1) on testbench [
+*Info*    Run start for Point ID (5 1) on testbench [
           DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1 ].
 
 Resetting statistical vars
@@ -37,9 +37,9 @@ Resetting statistical vars
 *Info*    Setting parameter values ...
 
 Setting var C_OTA = "0.5p"
-Setting var Cfb = "10p"
-Setting var Cin = "100p"
-Setting var Cl = "2.7p"
+Setting var Cfb = "0.5p"
+Setting var Cin = "5p"
+Setting var Cl = "2.5p"
 Setting var INCM = "0.5"
 Setting var OUTCMRef = "0.5"
 Setting var RSW_OFF = "100M"
@@ -47,10 +47,10 @@ Setting var RSW_ON = "1"
 Setting var VSW_TH = "0.55"
 Setting var Vin = "100m"
 Setting var alpha = "0.01"
-Setting var fin = "100K"
-Setting var fsw = "80M"
-Setting var gm_OTA = "20m"
-Setting var ro_OTA = "50k"
+Setting var fin = "40M"
+Setting var fsw = "80000"
+Setting var gm_OTA = "11.4m"
+Setting var ro_OTA = "1.11M"
 Setting temp(T) = 27
 Setting var vdd = "1.1"
 
@@ -62,21 +62,25 @@ Setting var vdd = "1.1"
           /users/students/r0926826/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1
 
 
-*Info*    Creating Netlist for Point ID (2 1)
+*Info*    Creating Netlist for Point ID (5 1)
 
 generate netlist...
-Begin Incremental Netlisting Feb 28 09:53:00 2025
-End netlisting Feb 28 09:53:00 2025
+Begin Incremental Netlisting Mar 11 11:45:35 2025
+Loading json.cxt 
+End netlisting Mar 11 11:45:37 2025
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
+Netlisting Statistics:
+	Number of components:   27
+
+	Elapsed time:          2.0s (13.50/s)
+Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
           DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1 ]
-          for Point ID (2 1).
+          for Point ID (5 1).
 
 Delete psf data in /users/students/r0926826/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1/psf.
 compose simulator input file...
@@ -93,7 +97,7 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (2 1) on testbench [
+*Info*    Run complete for Point ID (5 1) on testbench [
           DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1 ].
 
 

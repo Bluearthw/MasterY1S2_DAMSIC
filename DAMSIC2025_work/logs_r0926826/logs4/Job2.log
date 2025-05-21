@@ -1,0 +1,70 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = damsicOurs
+	Cell         = SOTA_Transient_AC_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.0
+	Results DB   = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_Transient_AC_TB_1
+	Results Loc  = /users/students/r0926826/simulation/damsicOurs/SOTA_Transient_AC_TB/maestro/results/maestro
+	Project Dir  = /users/students/r0926826/simulation
+	Setup DB loc = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_Transient_AC_TB/maestro
+	File Encoding = 0
+
+
+INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+
+*Info*    The auto suspension is disabled.
+
+Loading monte.cxt 
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [
+          damsicOurs_SOTA_Transient_AC_TB_1 ].
+
+ERROR (EXPLORER-2702): Cannot evaluate the expression because the values of the following variables cannot be determined.
+ (B, 1), (Cl, 2.5p), (FreqIn, 80M), (INCM, 0.5), (INDM, 0.05), (OUTCMREF, VAR("vb7")), (corModelSpec, "File=All#Global#/esat/micas-data/data/design/generic/045/gpdk045_v_4_0/gpdk045/../models/spectre/gpdk045.scs Section="mc";"), (nL, 10), (nW, 10), (nl1, 10), (nl2, 10), (nl3, 10), (temp, 27), (vb5, VAR("vb5")-0.2), (vb6, VAR("vb7")-0.2), (vb7, VAR("vdd")-0.2), (vdd, 1.1) 
+
+Ensure that the expression is correct and does not have cyclic dependency between the variables.
+
+
+*Error*   Error ID  = 5025
+*Error*   Error Msg = Error while preparing to run the simulation.
+
+
+
+
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [
+          damsicOurs_SOTA_Transient_AC_TB_1 ].
+
+ERROR (EXPLORER-2702): Cannot evaluate the expression because the values of the following variables cannot be determined.
+ (B, 1), (Cl, 2.5p), (FreqIn, 80M), (INCM, 0.5), (INDM, 0.05), (OUTCMREF, VAR("vb7")), (corModelSpec, "File=All#Global#/esat/micas-data/data/design/generic/045/gpdk045_v_4_0/gpdk045/../models/spectre/gpdk045.scs Section="mc";"), (nL, 10), (nW, 10), (nl1, 10), (nl2, 10), (nl3, 10), (temp, 27), (vb5, VAR("vb5")-0.2), (vb6, VAR("vb7")-0.2), (vb7, VAR("vdd")-0.2), (vdd, 1.1) 
+
+Ensure that the expression is correct and does not have cyclic dependency between the variables.
+
+
+*Error*   Error ID  = 5025
+*Error*   Error Msg = Error while preparing to run the simulation.
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri May  2 07:40:13 2025 
+Best design point: 1
+Design specs: 
+	damsicOurs_SOTA_Transient_AC_TB_1	corner	Nominal - 
+	v /OUTDM; ac dB20(V)		Error	No
+	v /OUTDM; ac deg(V)		Error	No
+Design parameters: 
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 2
+Interactive.0 completed. 
+Current time: Fri May  2 07:40:17 2025 

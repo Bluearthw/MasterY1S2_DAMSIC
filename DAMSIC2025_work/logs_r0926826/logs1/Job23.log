@@ -6,17 +6,17 @@
 
 *Info*    Configuring the session ...
 
-	Library      = DAMSIC
-	Cell         = SCAmplifier_STB_TB
+	Library      = damsicOurs
+	Cell         = GBOTA_Transient_AC_TB
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
 	State Name   = Interactive.0
-	Results DB   = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/DAMSIC/SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0.rdb
-	Results Dir  = /users/students/r0926826/simulation/DAMSIC/SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1
-	Results Loc  = /users/students/r0926826/simulation/DAMSIC/SCAmplifier_STB_TB/maestro/results/maestro
+	Results DB   = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_GBOTA_Transient_AC_TB_1
+	Results Loc  = /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro
 	Project Dir  = /users/students/r0926826/simulation
-	Setup DB loc = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/DAMSIC/SCAmplifier_STB_TB/maestro
+	Setup DB loc = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/GBOTA_Transient_AC_TB/maestro
 	File Encoding = 0
 
 
@@ -29,67 +29,119 @@ INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC ver
 
 
 
-*Info*    Run start for Point ID (4 1) on testbench [
-          DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1 ].
+*Info*    Run start for Point ID (6 1) on testbench [
+          damsicOurs_GBOTA_Transient_AC_TB_1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var CP2 = "159.235668789809e-12"
-Setting var C_OTA = "0.5p"
-Setting var Cfb = "1p"
-Setting var Cin = "10p"
+Setting var A = "4"
+Setting var B = "2"
 Setting var Cl = "2.5p"
-Setting var F_POLE2 = "1G"
-Setting var INCM = "0.5"
-Setting var OUTCMRef = "0.5"
-Setting var RSW_OFF = "100M"
-Setting var RSW_ON = "1"
-Setting var VSW_TH = "0.55"
-Setting var Vin = "100m"
-Setting var alpha = "0.01"
-Setting var fin = "100K"
-Setting var fsw = "10M"
-Setting var gm = "20m"
-Setting var gm_OTA = "20m"
-Setting var ro_OTA = "50k"
+Setting var FreqIn = "1k"
+Setting var GB1_A = "4"
+Setting var GB1_Cl = "4p"
+Setting var GB1_nL1 = "6"
+Setting var GB1_nL3 = "3"
+Setting var GB1_nL5 = "9"
+Setting var GB1_nL6 = "9"
+Setting var GB1_nL7 = "9"
+Setting var GB1_nl2 = "6"
+Setting var GB1_nnF3 = "33"
+Setting var GB1_nnF5 = "140"
+Setting var GB1_nnW3 = "20"
+Setting var GB1_nnW5 = "20"
+Setting var GB1_npF1 = "100"
+Setting var GB1_npF2 = "170"
+Setting var GB1_npF6 = "278"
+Setting var GB1_npF7 = "278"
+Setting var GB1_npW1 = "20"
+Setting var GB1_npW2 = "20"
+Setting var GB1_npW6 = "20"
+Setting var GB1_npW7 = "20"
+Setting var GB1_r_cmfb = "200"
+Setting var GB1_vb1 = "0.52"
+Setting var GB1_vb3 = "0.66"
+Setting var GB1_vb5 = "0.66"
+Setting var GB1_vb6 = "0.5"
+Setting var GB1_vb7 = "0.59"
+Setting var INCM = "0.55"
+Setting var INDM = "0.05"
+Setting var OUTCMREF = "0.55"
+Setting var gm_GB = "10m"
+Setting var nL = "5"
+Setting var nL1 = "5"
+Setting var nL7 = "5"
+Setting var nl2 = "5"
+Setting var nl3 = "3"
+Setting var nnF4 = "30"
+Setting var nnF5 = "140"
+Setting var nnW3 = "20"
+Setting var nnW5 = "20"
+Setting var npF1 = "222"
+Setting var npF2 = "222"
+Setting var npF6 = "170"
+Setting var npF7 = "170"
+Setting var npW1 = "20"
+Setting var npW2 = "20"
+Setting var npW6 = "20"
+Setting var npW7 = "20"
+Setting var r_cmfb = "200"
+Setting var ro_GB = "10k"
 Setting temp(T) = 27
+Setting var vb1 = "0.55"
+Setting var vb5 = "0.85"
+Setting var vb6 = "0.3"
+Setting var vb7 = "0.55"
 Setting var vdd = "1.1"
 
 *Info*    Netlist Directory =
-          /users/students/r0926826/simulation/DAMSIC/SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1/netlist
+          /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_GBOTA_Transient_AC_TB_1/netlist
 
 
 *Info*    Data Directory    =
-          /users/students/r0926826/simulation/DAMSIC/SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1
+          /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_GBOTA_Transient_AC_TB_1
 
 
-*Info*    Creating Netlist for Point ID (4 1)
+*Info*    Creating Netlist for Point ID (6 1)
 
 generate netlist...
-Begin Incremental Netlisting Feb 21 12:24:34 2025
+Begin Incremental Netlisting Apr 27 18:15:56 2025
 WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
 compared to the last session in the current run directory. The netlist(s)
 generated in the last netlisting session cannot be reused for incremental
 netlisting. Therefore re-netlisting the design.
 
-End netlisting Feb 21 12:24:35 2025
+WARNING (ADE-6003): Terminal "gnd", specified in the CDF termOrder, does not exist
+           in the cell-view "damsicOurs" "FCOTA1_withCMFB" "schematic"
+WARNING (ADE-6003): Terminal "vdd", specified in the CDF termOrder, does not exist
+           in the cell-view "damsicOurs" "FCOTA1_withCMFB" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+End netlisting Apr 27 18:15:57 2025
 
 Netlisting Statistics:
-	Number of components:   49
+	Number of components:   64
 
-	Elapsed time:          1.0s (49.00/s)
-Errors: 0	Warnings: 0
+	Elapsed time:          1.0s (64.00/s)
+Errors: 0	Warnings: 3
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1 ]
-          for Point ID (4 1).
+          damsicOurs_GBOTA_Transient_AC_TB_1 ] for Point ID (6 1).
 
-Delete psf data in /users/students/r0926826/simulation/DAMSIC/SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1/psf.
+Delete psf data in /users/students/r0926826/simulation/damsicOurs/GBOTA_Transient_AC_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_GBOTA_Transient_AC_TB_1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -98,69 +150,14 @@ simulate...
 To view the simulator output, right-click on the test name, result 
 name, or any value in the "Results" tab of the Outputs section and 
 choose "Output Log" menu option.
-INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
-        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
-        to view the simulation run log.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
 
-*Error*   Error ID  = 5011
-*Error*   Error Msg = Simulator failed to complete the simulation.
 
-          Error found by spectre in `idealOTA_2POLE':`I23', during
-          hierarchy flattening.
-Error found by spectre in
-          `idealOTA_2POLE':`I23', during hierarchy flattening.
-ERROR
-          (SFE-1997): "input.scs" 22: Cannot run the simulation
-          because I23.G0: parameter `gm': Cannot run the simulation
-          because parameter '_par0' has be
-en used but no value has
-          been assigned to it. Assign a value to the parameter and
-          rerun the simulation.
-ERROR (SFE-1997): "input.scs" 23:
-          Cannot run the simulation because I23.G1: parameter `gm':
-          Cannot run the simulation because parameter '_par0' has
-          be
-en used but no value has been assigned to it. Assign a
-          value to the parameter and rerun the simulation.
-ERROR
-          (SFE-1997): "input.scs" 26: Cannot run the simulation
-          because I23.R5: parameter `r': Cannot run the simulation
-          because parameter 'ro' has been u
-sed but no value has been
-          assigned to it. Assign a value to the parameter and rerun
-          the simulation.
-ERROR (SFE-1997): "input.scs" 27: Cannot
-          run the simulation because I23.R4: parameter `r': Cannot
-          run the simulation because parameter '_par0' has bee
-n used
-          but no value has been assigned to it. Assign a value to the
-          parameter and rerun the simulation.
-ERROR (SFE-1997):
-          "input.scs" 28: Cannot run the simulation because I23.R0a:
-          parameter `r': Cannot run the simulation because parameter
-          '_par0' has be
-en used but no value has been assigned to
-          it. Assign a value to the parameter and rerun the
-          simulation.
-ERROR (SFE-1997): "input.scs" 29: Cannot run
-          the simulation because I23.R3: parameter `r': Cannot run
-          the simulation because parameter 'ro' has been u
-sed but no
-          value has been assigned to it. Assign a value to the
-          parameter and rerun the simulation.
-ERROR (SFE-1997):
-          "input.scs" 32: Cannot run the simulation because I23.C1:
-          parameter `c': Cannot run the simulation because parameter
-          'C' has been us
-ed but no value has been assigned to it.
-          Assign a value to the parameter and rerun the
-          simulation.
-ERROR (SFE-1997): "input.scs" 33: Cannot run
-          the simulation because I23.C0: parameter `c': Cannot run
-          the simulation because parameter 'C' has been us
-ed but no
-          value has been assigned to it. Assign a value to the
-          parameter and rerun the simulation.
+*Info*    Run complete for Point ID (6 1) on testbench [
+          damsicOurs_GBOTA_Transient_AC_TB_1 ].
 
 
 

@@ -1,0 +1,121 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = damsicOurs
+	Cell         = SOTA_SCAmplifier_STB_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.0
+	Results DB   = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0926826/simulation/damsicOurs/SOTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_SCAmplifier_STB_TB_1
+	Results Loc  = /users/students/r0926826/simulation/damsicOurs/SOTA_SCAmplifier_STB_TB/maestro/results/maestro
+	Project Dir  = /users/students/r0926826/simulation
+	Setup DB loc = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_SCAmplifier_STB_TB/maestro
+	File Encoding = 0
+
+
+INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (3 1) on testbench [
+          damsicOurs_SOTA_SCAmplifier_STB_TB_1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var Cfb = "0.5p"
+Setting var Cin = "5p"
+Setting var Cl = "2.5p"
+Setting var INCM = "0.475"
+Setting var OUTCMRef = "0.435"
+Setting temp(T) = 27
+Setting var vdd = "1.1"
+
+*Info*    Netlist Directory =
+          /users/students/r0926826/simulation/damsicOurs/SOTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_SCAmplifier_STB_TB_1/netlist
+
+
+*Info*    Data Directory    =
+          /users/students/r0926826/simulation/damsicOurs/SOTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_SCAmplifier_STB_TB_1
+
+
+*Info*    Creating Netlist for Point ID (3 1)
+
+generate netlist...
+Begin Incremental Netlisting Mar 22 20:32:37 2025
+ERROR (OSSHNL-116): Unable to descend into any of the views defined in the view list, 'spectre cmos_sch cmos.sch schematic veriloga', for the
+instance 'I25' in cell 'SOTA_SCAmplifier_STB_TB'. Add one of these views to the cell 'SOTAWithBias' in the
+library 'damsicOurs', or modify the view list so that it contains an existing view.
+
+End netlisting Mar 22 20:32:37 2025
+ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+      ...unsuccessful.
+
+*Error*   Error ID  = 5012
+*Error*   Error Msg = Failed to create netlist.
+
+
+
+
+
+
+
+
+
+*Info*    Run start for Point ID (3 1) on testbench [
+          damsicOurs_SOTA_SCAmplifier_STB_TB_1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var Cfb = "0.5p"
+Setting var Cin = "5p"
+Setting var Cl = "2.5p"
+Setting var INCM = "0.475"
+Setting var OUTCMRef = "0.435"
+Setting temp(T) = 27
+Setting var vdd = "1.1"
+
+*Info*    Netlist Directory =
+          /users/students/r0926826/simulation/damsicOurs/SOTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_SCAmplifier_STB_TB_1/netlist
+
+
+*Info*    Data Directory    =
+          /users/students/r0926826/simulation/damsicOurs/SOTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_SCAmplifier_STB_TB_1
+
+
+*Info*    Creating Netlist for Point ID (3 1)
+
+generate netlist...
+Begin Incremental Netlisting Mar 22 20:32:48 2025
+ERROR (OSSHNL-116): Unable to descend into any of the views defined in the view list, 'spectre cmos_sch cmos.sch schematic veriloga', for the
+instance 'I25' in cell 'SOTA_SCAmplifier_STB_TB'. Add one of these views to the cell 'SOTAWithBias' in the
+library 'damsicOurs', or modify the view list so that it contains an existing view.
+
+End netlisting Mar 22 20:32:48 2025
+ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+      ...unsuccessful.
+
+*Error*   Error ID  = 5012
+*Error*   Error Msg = Failed to create netlist.
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

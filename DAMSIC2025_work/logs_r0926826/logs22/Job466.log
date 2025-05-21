@@ -1,0 +1,126 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = damsicOurs
+	Cell         = SOTA_SCAmplifier_STB_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.0
+	Results DB   = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0926826/simulation/damsicOurs/SOTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_SCAmplifier_STB_TB_1
+	Results Loc  = /users/students/r0926826/simulation/damsicOurs/SOTA_SCAmplifier_STB_TB/maestro/results/maestro
+	Project Dir  = /users/students/r0926826/simulation
+	Setup DB loc = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs/SOTA_SCAmplifier_STB_TB/maestro
+	File Encoding = 0
+
+
+INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [
+          damsicOurs_SOTA_SCAmplifier_STB_TB_1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var A = "2"
+Setting var B = "2"
+Setting var Cfb = "0.5p"
+Setting var Cin = "5p"
+Setting var Cl = "2.5p"
+Setting var INCM = "0.55"
+Setting var OUTCMRef = "0.55"
+Setting var nL = "5"
+Setting var nL1 = "5"
+Setting var nL7 = "5"
+Setting var nl2 = "5"
+Setting var nl3 = "3"
+Setting var nnF4 = "40"
+Setting var nnF5 = "150"
+Setting var nnW3 = "20"
+Setting var nnW5 = "20"
+Setting var npF1 = "181"
+Setting var npF2 = "150"
+Setting var npF6 = "200"
+Setting var npF7 = "170"
+Setting var npW1 = "20"
+Setting var npW2 = "20"
+Setting var npW6 = "20"
+Setting var npW7 = "20"
+Setting var r_cmfb = "100"
+Setting temp(T) = 27
+Setting var vb1 = "0.58"
+Setting var vb5 = "0.81"
+Setting var vb6 = "0.29"
+Setting var vb7 = "0.59"
+Setting var vdd = "1.1"
+
+*Info*    Netlist Directory =
+          /users/students/r0926826/simulation/damsicOurs/SOTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_SCAmplifier_STB_TB_1/netlist
+
+
+*Info*    Data Directory    =
+          /users/students/r0926826/simulation/damsicOurs/SOTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_SCAmplifier_STB_TB_1
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+Begin Incremental Netlisting May  2 01:06:50 2025
+WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+compared to the last session in the current run directory. The netlist(s)
+generated in the last netlisting session cannot be reused for incremental
+netlisting. Therefore re-netlisting the design.
+
+End netlisting May  2 01:06:51 2025
+
+Netlisting Statistics:
+	Number of components:   55
+
+	Elapsed time:          1.0s (55.00/s)
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          damsicOurs_SOTA_SCAmplifier_STB_TB_1 ] for Point ID (0 1).
+
+Delete psf data in /users/students/r0926826/simulation/damsicOurs/SOTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/damsicOurs_SOTA_SCAmplifier_STB_TB_1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (0 1) on testbench [
+          damsicOurs_SOTA_SCAmplifier_STB_TB_1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

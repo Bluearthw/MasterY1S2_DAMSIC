@@ -1,105 +1,132 @@
-\# Program start time:     UTC 2025.02.28 09:20:51.701
-\# Local time: CET (UTC+01:00) 2025.02.28 10:20:51.701
-\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 03/14/2023 19:53 (cpgsrv12) $
-\o Hierarchy:		/esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/
-\o Sub version:		sub-version  IC6.1.8-64b.500.31  (64-bit addresses)
-\# Command line:	/esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso3104 -mpshost pc-klas2-16.esat.kuleuven.be -davinciService DaVinciService_3104_1740726459 -log /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/logs_r0926826/logs0/Job20.log -licenseLockFileName /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/.tmp_r0926826/.pc-klas2-16.esat.kuleuven.be_3104 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 20
-\# Host name (type):	pc-klas2-16.esat.kuleuven.be (x86_64)
-\# Operating system:	Linux 5.14.0-503.26.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Feb 19 16:28:19 UTC 2025
-\# Linux /etc/issue:	\S
-\# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:2551 (1024x868)
-\# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			The X.Org Foundation
-\# Depth of Visual (Root):	24 (24)
-\# Number of Planes Used:	24
-\# X version:		11.0 (vendor release 12011000)
-\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
-\# 			current id 0x0, current max 0x1ffffa (2097146)
-\# Max data seg size:	     unlimited
-\# Max process size:	     unlimited
-\# Initial sbrk value:	        620 MB
-\# Available memory:	     41,091 MB
-\# System memory:	     48,245 MB
-\# Maximum memory size:	     47,744 MB
-\# Max mem available:	     41,209 MB
-\# Initial memory used:	        118 MB
-\#        process size:	      1,539 MB
-\# Thread usage limits (effective/default):	maxthreads 5166/5166 maxload 12.00/12.00
-\# Qt version:		5.9.1
-\# Window Manager:	other
-\# User Name:		r0926826
-\o Working Directory:	pc-klas2-16.esat.kuleuven.be:/users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work
-\# Process Id:		48989
-\o 
-\o COPYRIGHT (C) 1992-2023  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
-\o           (C) 1992-2023  UNIX SYSTEMS Laboratories INC.,
-\o                          Reproduced with permission.
-\o 
-\o This Cadence Design Systems program and online documentation are
-\o proprietary/confidential information and may be disclosed/used only
-\o as authorized in a license agreement controlling such use and disclosure.
-\o 
-\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
-\o Use/reproduction/disclosure is subject to restriction
-\o set forth at FAR 1252.227-19 or its equivalent.
-\o Loading geView.cxt 
-\o Loading menuBuilder.cxt 
-\o Loading schView.cxt 
-\o Loading selectSv.cxt 
-\o Loading wireEdit.cxt 
-\o Loading pte2.cxt 
-\o Loading xlUI.cxt 
-\o Loading auCore.cxt 
-\o Loading vhdl.cxt 
-\o Loading seismic.cxt 
-\o Loading ci.cxt 
-\o Loading ams.cxt 
-\o Loading oasis.cxt 
-\o Loading analog.cxt 
-\o Loading asimenv.cxt 
-\o Loading dal.cxt 
-\o Loading awv.cxt 
-\o Loading socket.cxt 
-\o Loading par.cxt 
-\o Loading alvs.cxt 
-\o Loading caa.cxt 
-\o Loading amps.cxt 
-\o Loading adexlCore.cxt 
-\o Loading adexl.cxt 
-\o *Info*    Exporting services from client ... 
-\o 
-\o Loading adexlDM.cxt 
-\o Loading cpf.cxt 
-\o Loading cli.cxt 
-\o Loading lp.cxt 
-\# Memory report: using         252 MB, process size 1,796 MB at UTC 2025.02.28 09:20:53.092
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso3104, host=pc-klas2-16.esat.kuleuven.be). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
-\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 48989 within 90 seconds is being processed...
-\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
-\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\# [10:20:51.458570] Configured Lic search path (22.01-s002): 27002@license-extern.esat.kuleuven.be:/esat/micas-data/software/Cadence/ic_6.1.8.310/share/license/license.dat
-\o *Info*    Client has finished starting ... 
-\o 
-\o Loading vdsil.cxt 
-\p > 
-\# Loading perfDiag...
-\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
-\w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 48989' to open it when Virtuoso freezes.
-\# (PerfDiag): Use backtrace from GLIBC.
-\w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
-\# Available memory:         40,892 MB at UTC 2025.02.28 09:21:01.934
-\# Memory report: Maximum memory size now 41,178 MB at UTC 2025.02.28 09:21:01.934
-\# Thread usage report: 18 active threads, active load 1.40 at UTC 2025.02.28 09:21:01.934
-\o 
-\o *Info*    Received signal SIGTERM.
-\o 
-\o 
-\o Loading simui.cxt 
-\# Lic Summary:
-\# [10:23:14.085696] Cdslmd servers:27002@license-extern.esat.kuleuven.be:/esat/micas-data/software/Cadence/ic_6.1.8.310/share/license/license.dat
-\# [10:23:14.085706] Feature usage summary:
-\# Memory report: on exit            291 MB, process size 1,843 MB at UTC 2025.02.28 09:23:14.085
-\# Memory report: peak usage         291 MB, process size 1,843 MB
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = DAMSIC
+	Cell         = SCAmplifier_Transient_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.0
+	Results DB   = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0926826/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1
+	Results Loc  = /users/students/r0926826/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro
+	Project Dir  = /users/students/r0926826/simulation
+	Setup DB loc = /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/DAMSIC/SCAmplifier_Transient_TB/maestro
+	File Encoding = 0
+
+
+INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (8 1) on testbench [
+          DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var C_OTA = "0.5p"
+Setting var Cfb = "0.5p"
+Setting var Cin = "5p"
+Setting var Cl = "2.5p"
+Setting var INCM = "0.5"
+Setting var OUTCMRef = "0.5"
+Setting var RSW_OFF = "100G"
+Setting var RSW_ON = "1"
+Setting var VSW_TH = "0.55"
+Setting var Vin = "100m"
+Setting var alpha = "0.01"
+Setting var fin = "40000"
+Setting var fsw = "80M"
+Setting var gm_OTA = "11.4m"
+Setting var ro_OTA = "1.11M"
+Setting temp(T) = 27
+Setting var vdd = "1.1"
+
+*Info*    Netlist Directory =
+          /users/students/r0926826/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1/netlist
+
+
+*Info*    Data Directory    =
+          /users/students/r0926826/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1
+
+
+*Info*    Creating Netlist for Point ID (8 1)
+
+generate netlist...
+Begin Incremental Netlisting Mar 11 11:49:05 2025
+End netlisting Mar 11 11:49:05 2025
+
+Netlisting Statistics:
+	Number of components:   27
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1 ]
+          for Point ID (8 1).
+
+Delete psf data in /users/students/r0926826/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
+reading simulation data...
+      ...successful.
+
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
+
+          Error found by spectre at time = 12.6299 ns during
+          transient analysis `tran'.
+Error found by spectre at time =
+          12.6299 ns during transient analysis `tran'.
+ERROR
+          (SPECTRE-16927): Cannot run the simulation because
+          transient analysis has reached the maximum allowed number
+          of timesteps with timestep size of 
+'minstep', in a period
+          of 5% of stop time. Use the 'max_minstep_nonconv' option to
+          adjust the maximum allowed number of convergence failures
+          with 'min
+step', and rerun the simulation.
+
+
+
+
+
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (8 1) on testbench [
+          DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

@@ -6,4 +6,4 @@ DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
 
 DEFINE gpdk045 ./gpdk045
 DEFINE DAMSIC ./DAMSIC
-DEFINE SESSION_1_EXCERCISE ./SESSION_1_EXCERCISE
+DEFINE damsicOurs /users/students/r0926826/kuleuven/6/DAMSIC/DAMSIC2025_work/damsicOurs
